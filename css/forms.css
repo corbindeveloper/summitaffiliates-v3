@@ -1,0 +1,40 @@
+/*CSS tied to the contact-us and schedule a free assessment section*/
+
+
+
+
+
+/*Schedule a Free Assessment specific CSS*/
+
+ /*Schedule an Assessment Description*/
+ .schedule-desc-img{
+    background-image: url("../assets/line-curved.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+
+ .schedule-desc-section{
+    flex-direction: column;
+ }
+
+ .schedule-desc-container {
+    display: flex;
+    padding: 0 10%;
+ }
+
+ .schedule-text-container {
+    width: 50%;
+    line-height: 2.6;
+ }
+
+
+@media screen and (max-width: 700px) {
+
+    /*Schedule an Assessment Description --Mobile*/
+    .schedule-desc-container {
+        flex-direction: column;
+    }
+    .schedule-text-container {
+        width: 100%;
+    }
+}

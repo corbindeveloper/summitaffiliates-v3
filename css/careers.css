@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 16px;
+}
+
+.opening-background {
+    /* background: url(../assets/about/careers-background.svg); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.careers-card-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+.careers-card-subtainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.careers-card {
+    width: 30%;
+    min-width: 350px;
+    max-width: 800px;
+    min-height: 360px;
+    background-color: #b01d22;
+    border-radius: 5px;
+    border: 3px solid rgba(0, 0, 0, 0.2);
+    margin: 1%;
+    padding: 1% 2% 2% 2%;
+}
+
+.careers-card > h3 {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.careers-card > i {
+    font-size: 2.7rem;
+    line-height: 1.4;
+    color:rgba(0, 0, 0, 0.2);
+}
+
+.careers-card > p {
+    letter-spacing: 1px;
+    line-height: 2;
+}
+
+/* Perks and Benefits Card */
+.competitive-pay-card {
+    background-color: #0dd15251;
+}
+
+.competitive-pay-card > i {
+    color: rgb(13, 209, 83);
+}
+
+
+.pto-card {
+    background-color: #BD0DD130;
+}
+
+.pto-card > i {
+    color: #BD0ED1;
+}
+
+
+.profit-sharing-card {
+    background-color: #0dc4d155;
+}
+
+.profit-sharing-card > i {
+    color: #0dc4d1;
+}
+
+.health-card {
+    background-color: #d10d7f47;
+}
+
+.health-card > i {
+    color: #d10d7f;
+}
+
+@media only screen and (max-width: 900px) {
+    .career-hero {
+      height: auto;
+    }
+}
