@@ -43,33 +43,23 @@
     border-radius: 15px;
 }
 
-.mot-image {
+.loc-image {
     background: url("../assets/logos/MOT-2020v2-01.png");
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
-
 }
 
 .okc-image {
     background: url("../assets/logos/sbs-sms-stacked.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .cci-image {
     background: url("../assets/logos/CCI-2020v2-01.png");
-    background-position: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
 }
 
 .jmp-image {
     background: url("../assets/logos/JMP-2020v2-01.png");
-    background-position: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
 }
 
 
