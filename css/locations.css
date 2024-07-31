@@ -127,10 +127,6 @@
 /*Middle Layout*/
 @media screen and (max-width: 1000px) { 
     /*Section 1: Location Hero Section -- Middle*/
-    .location-img {
-        
-    }
-
     .location-hero-content {
         width: 100%;
         padding: 0 3%;
