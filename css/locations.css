@@ -48,20 +48,8 @@
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
-}
 
-.okc-image {
-    background: url("../assets/logos/sbs-sms-stacked.png");
 }
-
-.cci-image {
-    background: url("../assets/logos/CCI-2020v2-01.png");
-}
-
-.jmp-image {
-    background: url("../assets/logos/JMP-2020v2-01.png");
-}
-
 
 /*Section: Call to Action: */
 .cta-location {
@@ -127,6 +115,10 @@
 /*Middle Layout*/
 @media screen and (max-width: 1000px) { 
     /*Section 1: Location Hero Section -- Middle*/
+    .location-img {
+        
+    }
+
     .location-hero-content {
         width: 100%;
         padding: 0 3%;
