@@ -4,6 +4,26 @@
       <loc>https://summitaffiliates.com/index.html</loc>
       <priority>1.0</priority>
    </url>
+
+
+   <!--Locations Pages-->
+   <url>
+      <loc>https://summitaffiliates.com/locations/cci.html</loc>
+      <priority>0.9</priority>
+   </url>
+   <url>
+      <loc>https://summitaffiliates.com/locations/jmp.html</loc>
+      <priority>0.9</priority>
+   </url>
+   <url>
+      <loc>https://summitaffiliates.com/locations/mot.html</loc>
+      <priority>0.9</priority>
+   </url>
+   <url>
+      <loc>https://summitaffiliates.com/locations/okc.html</loc>
+      <priority>0.9</priority>
+   </url>
+
    <!-- Product Pages -->
    <url>
       <loc>https://summitaffiliates.com/product-pages/view-all/all-products.html</loc>
@@ -126,7 +146,7 @@
    </url>
    <url>
       <loc>https://summitaffiliates.com/about/summit-family.html</loc>
-      <priority>0.5</priority>
+      <priority>0.9</priority>
    </url>
    
    <!-- Forms -->
@@ -136,6 +156,10 @@
    </url>
    <url>
       <loc>https://summitaffiliates.com/forms/request-info.html</loc>
+      <priority>0.4</priority>
+   </url>
+   <url>
+      <loc>https://summitaffiliates.com/forms/schedule-assessment.html</loc>
       <priority>0.4</priority>
    </url>
 </urlset>
