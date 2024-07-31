@@ -123,10 +123,6 @@
     padding: 0 20%;
 }
 
-.get-in-touch-buttons {
-    
-}
-
 
 /*---Unsure what code above might relate to, but code below pertains to the All Products Page*/
 
@@ -136,7 +132,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  
 }
 
 .products-hero-content {
@@ -144,7 +139,7 @@
     min-height: 600px;
     color: #fff;
     text-align: center;
-    padding: 3% 3%;
+    padding: 3% 18%;
 }
 
 .hero-btn-container{
@@ -243,10 +238,15 @@
 
 
 @media only screen and (max-width:700px) {
+    .products-hero-content{
+        padding: 3% 3%;
+    }
+
     .hero-btn-container {
         flex-direction: column;
         margin: 0 10%;
     }
+
 
     .products-subtainer{
         justify-content: center;
