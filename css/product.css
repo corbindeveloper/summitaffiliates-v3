@@ -60,6 +60,7 @@
     margin-right: 25px;
     margin-bottom: 15px;
     transition: all .3s ease-in-out;
+    color: #000;
 }
 
 .content-left-button:hover {
@@ -205,6 +206,7 @@
 
 .product-explanation-title {
     font-size: 3rem;
+    font-weight: 400;
 }
 
 .product-explanation-description {

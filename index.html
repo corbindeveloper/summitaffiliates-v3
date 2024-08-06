@@ -29,11 +29,8 @@
     <link rel="stylesheet" href="./min/base.min.css">
     <link rel="stylesheet" href="./min/main.min.css">
     <link rel="stylesheet" href="./min/hover.min.css">
-
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
+   
     <script src="https://kit.fontawesome.com/4229a7500a.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@16.1.2/dist/smooth-scroll.polyfills.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.4/lottie.min.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -71,51 +68,50 @@
         <nav class="bottom-navigation" style="display: flex; justify-content: center; align-items: center; padding: 0.5% 3%; background-color: rgb(235,235,235);">
             <div class="nav-list main-nav-list" style="width: 50%; align-items: center; list-style: none; justify-content: center; margin: 0; padding: 0; column-gap: 9%;">
 
-                <div class="w3-dropdown-hover" style="background-color: rgba(0,0,0,0.0);">
-                    <button class="w3-button" style="text-decoration: none; color: rgb(0,0,0,0.8); font-size: 17px;">About <i class="fa-solid fa-chevron-down" style="color: rgb(0,0,0,0.8);"></i></button>
-                    <div class="w3-dropdown-content w3-bar-block w3-card-4" style="width: 200px; border-radius: 5px;">
-                      <a href="./about/company-history.html" class="w3-bar-item w3-button">Company History</a>
-                      <!-- <a href="#" class="w3-bar-item w3-button">Leadership Team</a> -->
-                      <a href="../about/summit-family.html" class="w3-bar-item w3-button">Our Locations</a>
-                      <a href="../about/careers.html" class="w3-bar-item w3-button">Careers</a>
+                <div class="dropdown">
+                    <li class="dropbtn">About <i class="fa-solid fa-chevron-down" style="color: rgb(0,0,0,0.8); margin: 9%;"></i></li>
+                    <div class="dropdown-content">
+                        <a href="./about/company-history.html">Company History</a>
+                        <a href="./about/summit-family.html">Our Locations</a>
+                        <a href="./about/careers.html">Careers</a>
                     </div>
                 </div>
-
-                <div class="w3-dropdown-hover">
-                    <button class="w3-button" style="text-decoration: none; color: rgb(0,0,0,0.8); font-size: 17px;">MFP <i class="fa-solid fa-chevron-down" style="color: rgb(0,0,0,0.8);"></i></button>
-                    <div class="w3-dropdown-content w3-bar-block w3-card-4" style="width: 200px;">
-                        <a href="./product-pages/print/office-mfps.html" class="w3-bar-item w3-button">Office MFPs</a>
-                        <a href="./product-pages/print/small-personal-mfps.html" class="w3-bar-item w3-button">Small & Personal MFPs</a>
-                        <a href="./product-pages/print/light-production-mfps.html" class="w3-bar-item w3-button">Production Machines</a>
-                        <a href="./product-pages/print/label-receipt-printers.html" class="w3-bar-item w3-button">Label & Receipt Printers</a>
-                        <a href="./product-pages/print/wide-format-printers.html" class="w3-bar-item w3-button">Wide Format Printers</a>
+                
+                <div class="dropdown">
+                    <li class="dropbtn">MFP <i class="fa-solid fa-chevron-down" style="color: rgb(0,0,0,0.8); margin: 9%;"></i></li>
+                    <div class="dropdown-content">
+                        <a href="./product-pages/print/office-mfps.html">Office MFPs</a>
+                        <a href="./product-pages/print/small-personal-mfps.html">Small & Personal MFPs</a>
+                        <a href="./product-pages/print/light-production-mfps.html">Production Machines</a>
+                        <a href="./product-pages/print/label-receipt-printers.html">Label & Receipt Printers</a>
+                        <a href="./product-pages/print/wide-format-printers.html">Wide Format Printers</a>
                         <!-- <a href="#" class="w3-bar-item w3-button">Laser Printers</a> -->
-                        <a href="./product-pages/print/scanners.html" class="w3-bar-item w3-button">Scanners</a>
+                        <a href="./product-pages/print/scanners.html">Scanners</a>
+                    </div>
+                </div> 
+
+                <div class="dropdown">
+                    <li class="dropbtn">Mailing <i class="fa-solid fa-chevron-down" style="color: rgb(0,0,0,0.8); margin: 9%;"></i></li>
+                    <div class="dropdown-content">
+                        <a href="./product-pages/mailing/mail-machines.html">Mail Machines</a>
+                        <a href="./product-pages/mailing/folder-inserters.html">Folder Inserters</a>
+                        <a href="./product-pages/mailing/envelope-printers.html">Direct Address Printers</a>
+                        <a href="./product-pages/mailing/mail-parcel-lockers.html">Mail Lockers</a>
+                        <a href="./product-pages/mailing/other-equipment.html">Other Equipment</a>
                     </div>
                 </div>
 
-                <div class="w3-dropdown-hover">
-                    <button class="w3-button" style="text-decoration: none; color: rgb(0,0,0,0.8); font-size: 17px;">Mailing <i class="fa-solid fa-chevron-down" style="color: rgb(0,0,0,0.8);"></i></button>
-                    <div class="w3-dropdown-content w3-bar-block w3-card-4" style="width: 200px;">
-                      <a href="./product-pages/mailing/mail-machines.html" class="w3-bar-item w3-button">Mail Machines</a>
-                      <a href="./product-pages/mailing/folder-inserters.html" class="w3-bar-item w3-button">Folder Inserters</a>
-                      <a href="./product-pages/mailing/envelope-printers.html" class="w3-bar-item w3-button">Direct Address Printers</a>
-                      <a href="./product-pages/mailing/mail-parcel-lockers.html" class="w3-bar-item w3-button">Mail Lockers</a>
-                      <a href="./product-pages/mailing/other-equipment.html" class="w3-bar-item w3-button">Other Equipment</a>
-                    </div>
-                </div>
-
-                <div class="w3-dropdown-hover">
-                    <button class="w3-button" style="text-decoration: none; color: rgb(0,0,0,0.8); font-size: 16px;">Solutions <i class="fa-solid fa-chevron-down" style="color: rgb(0,0,0,0.8);"></i></button>
-                    <div class="w3-dropdown-content w3-bar-block w3-card-4" style="width: 200px;">
-                      <a href="./product-pages/solutions/business-process-automation.html" class="w3-bar-item w3-button">Business Process Automation</a>
-                      <a href="./product-pages/solutions/digital-forms.html" class="w3-bar-item w3-button">Digital Forms</a>
-                      <a href="./product-pages/solutions/document-archive-retrieval.html" class="w3-bar-item w3-button">Document Archive/Retrieval</a>
-                      <a href="./product-pages/solutions/customer-communication-management.html" class="w3-bar-item w3-button">Customer Commmunication Management</a>
-                      <a href="./product-pages/solutions/customer-journey-mapping.html" class="w3-bar-item w3-button">Customer Journey Mapping</a>
-                      <!-- <a href="./product-pages/solutions/invoice-delivery.html" class="w3-bar-item w3-button">Automated Invoice Delivery</a> -->
-                      <!-- <a href="./product-pages/solutions/systems-integrations.html" class="w3-bar-item w3-button">Systems Integration</a> -->
-                    </div>
+                <div class="dropdown">
+                    <li class="dropbtn">Solutions <i class="fa-solid fa-chevron-down" style="color: rgb(0,0,0,0.8); margin: 7%;"></i></li>
+                    <div class="dropdown-content">
+                        <a href="./product-pages/solutions/business-process-automation.html">Business Process Automation</a>
+                        <a href="./product-pages/solutions/digital-forms.html">Digital Forms</a>
+                        <a href="./product-pages/solutions/document-archive-retrieval.html">Document Archive/Retrieval</a>
+                        <a href="./product-pages/solutions/customer-communication-management.html">Customer Commmunication Management</a>
+                        <a href="./product-pages/solutions/customer-journey-mapping.html">Customer Journey Mapping</a>
+                        <!-- <a href="./product-pages/solutions/invoice-delivery.html" class="w3-bar-item w3-button">Automated Invoice Delivery</a> -->
+                        <!-- <a href="./product-pages/solutions/systems-integrations.html" class="w3-bar-item w3-button">Systems Integration</a> -->
+                      </div>
                 </div>
 
                 <!-- Contact us -->
@@ -247,7 +243,7 @@
 
                 <!-- Text Side -->
                 <div class="aboutus-text-container">
-                    <h2 style="font-size: 2.2rem;">Summit Technology Affiliates</h2>
+                    <h2 style="font-size: 2.2rem; font-weight: 400;">Summit Technology Affiliates</h2>
                     <span style="font-size: 0.9rem;"><em>Bridging Office & Shipping Excellence since 1987</em></span>
                     <br>
                     <p class="aboutus-text">With a strong presence across Oklahoma, California, Iowa, Missouri, Eastern Kansas, Northern Texas, and beyond, Summit Technology Affiliates has been a leader in managed print, mailing solutions, document solutions, and managed IT services for over three decades. Beyond providing reliable, cutting-edge equipment — from copiers and printers to mailing systems — we specialize in crafting comprehensive workflow solutions tailored to your business needs. At Summit, we believe in building lasting partnerships founded on honesty, ethics, and an unwavering commitment to exceptional customer service.</p>
@@ -271,11 +267,11 @@
                                 <img src="./assets/icons/-_Mailroom Solutions.svg" alt="Mail Room Solutions">
                             </div>
 
-                            <h3 class="card-title">Mailroom Solutions</h3>
+                            <h3 class="card-title" style="font-weight: 400;">Mailroom Solutions</h3>
                             <p class="reset card-text">Optimize your mail handling with our advanced mailroom solutions. Streamline processing, enhance efficiency, and ensure timely deliveries.</p>
                         
                         </div>
-                        <p class="reset red expertise-learn-more"><a href="./product-pages/mailing/mailroom-solutions.html" class="hvr-sweep-to-top">Learn More</a></p>
+                        <p class="reset red"><a href="./product-pages/mailing/mailroom-solutions.html" class="hvr-sweep-to-top expertise-learn-more">Learn More</a></p>
                     </div>
 
                     <div class="card">
@@ -284,11 +280,11 @@
                                 <img src="./assets/icons/-_Managed Print Services.svg" alt="Managed Print Services Icon">
                             </div>
 
-                            <h3 class="card-title">Managed Print Services</h3>
+                            <h3 class="card-title" style="font-weight: 400;">Managed Print Services</h3>
                             <p class="reset card-text">Discover cutting-edge office MFPs & printers designed for reliability and performance, catering to all your business printing needs.</p>
                         
                         </div>
-                        <p class="reset red expertise-learn-more"><a href="./product-pages/print/managed-print.html" class="hvr-sweep-to-top">Learn More</a></p>
+                        <p class="reset red"><a href="./product-pages/print/managed-print.html" class="hvr-sweep-to-top expertise-learn-more">Learn More</a></p>
                     </div>
 
                     <div class="card">
@@ -297,11 +293,11 @@
                                 <img src="./assets/icons/-_Document Archive &-Retrieval.svg" alt="Document Archive and Retrieval icon">
                             </div>
 
-                            <h3 class="card-title">Document Archive & Retrieval</h3>
+                            <h3 class="card-title" style="font-weight: 400;">Document Archive & Retrieval</h3>
                             <p class="reset card-text">Safeguard and access important documents easily with our document archive & retrieval services, ensuring data integrity and quick retrieval.</p>
                         
                         </div>
-                        <p class="reset red expertise-learn-more"><a class="hvr-sweep-to-top" href="./product-pages/solutions/document-archive-retrieval.html">Learn More</a></p>
+                        <p class="reset red"><a class="hvr-sweep-to-top expertise-learn-more" href="./product-pages/solutions/document-archive-retrieval.html">Learn More</a></p>
                     </div>
 
                     <div class="card">
@@ -310,11 +306,11 @@
                                 <img src="./assets/icons/-_Customer Journey-Mapping.svg" alt="Customer Journey Mapping icon">
                             </div>
 
-                            <h3 class="card-title">Customer Journey Mapping</h3>
+                            <h3 class="card-title" style="font-weight: 400;">Customer Journey Mapping</h3>
                             <p class="reset card-text">Enhance customer experience through detailed customer journey mapping, identifying key touchpoints for improved engagement and satisfaction.</p>
                         
                         </div>
-                        <p class="reset red expertise-learn-more"><a class="hvr-sweep-to-top" href="./product-pages/solutions/customer-journey-mapping.html">Learn More</a></p>
+                        <p class="reset red"><a class="hvr-sweep-to-top expertise-learn-more" href="./product-pages/solutions/customer-journey-mapping.html">Learn More</a></p>
                     </div>
 
                     <div class="card">
@@ -323,11 +319,11 @@
                                 <img src="./assets/icons/-_Document Workflow-Solutions.svg" alt="Document Workflow Solutions Icon">
                             </div>
 
-                            <h3 class="card-title">Document Workflow Solutions</h3>
+                            <h3 class="card-title" style="font-weight: 400;">Document Workflow Solutions</h3>
                             <p class="reset card-text">Revolutionize your document handling with our document workflow solutions, enhancing efficiency and accuracy in information management and process automation.</p>
                         
                         </div>
-                        <p class="reset red expertise-learn-more"><a class="hvr-sweep-to-top" href="./product-pages/solutions/document-workflow-solutions.html">Learn More</a></p>
+                        <p class="reset red"><a class="hvr-sweep-to-top expertise-learn-more" href="./product-pages/solutions/document-workflow-solutions.html">Learn More</a></p>
                     </div>
 
                     <div class="card">
@@ -336,11 +332,11 @@
                                 <img src="./assets/icons/-_Managed IT.svg" alt="Managed IT Services">
                             </div>
                             
-                            <h3 class="card-title">Managed IT</h3>
+                            <h3 class="card-title" style="font-weight: 400;">Managed IT</h3>
                             <p class="reset card-text">Secure and streamline your business operations with our managed IT services, offering robust support, security, and technology management.</p>
                         
                         </div>
-                        <p class="reset red expertise-learn-more"><a class="hvr-sweep-to-top" href="https://summitsecureit.com">Learn More</a></p>
+                        <p class="reset red"><a class="hvr-sweep-to-top expertise-learn-more" href="https://summitsecureit.com">Learn More</a></p>
                     </div>
 
                 </div>
@@ -503,8 +499,10 @@
                                 </div>
 
                                 <p class="testimonial-text">"The technicians have been an absolute pleasure to work with. Whenever we have issues with our stuffer/inserter machine or postage machine, he works diligently to make sure our issues are solved!"</p>
-                                <p class="testimonial-author">Ceasar</p>
-                                <p class="testimonial-role">Associate Fiscal Analyst</p>
+                                <div>
+                                    <p class="testimonial-author">Ceasar</p>
+                                    <p class="testimonial-role">Associate Fiscal Analyst</p>
+                                </div>
                             </div>
                             <!-- Testimonial 2 -->
                             <div class="testimonial-card">
@@ -513,8 +511,10 @@
                                 </div>
 
                                 <p class="testimonial-text">"The technician went out of his way to check in and get everything fixed quickly. The communication was top-of-the-line."</p>
-                                <p class="testimonial-author">Madison</p>
-                                <p class="testimonial-role">Office Manager</p>
+                                <div>
+                                    <p class="testimonial-author">Madison</p>
+                                    <p class="testimonial-role">Office Manager</p>
+                                </div>
                             </div>
                         </div>
 
@@ -527,8 +527,10 @@
                                 </div>
 
                                 <p class="testimonial-text">"Service technicians are always very knowledgeable about my equipment and can troubleshoot any problems easily."</p>
-                                <p class="testimonial-author">Misti</p>
-                                <p class="testimonial-role">City Clerk/Treasurer</p>
+                                <div>
+                                    <p class="testimonial-author">Misti</p>
+                                    <p class="testimonial-role">City Clerk/Treasurer</p>
+                                </div>
                             </div>
                             <!-- Testimonial 2 -->
                             <div class="testimonial-card">
@@ -537,8 +539,10 @@
                                 </div>
 
                                 <p class="testimonial-text">"The technician helped me make sure I was able to print off all the envelopes I needed to get the job done. The technician met every expectation. "</p>
-                                <p class="testimonial-author">Rev. Craig Robertson</p>
-                                <p class="testimonial-role">Minister</p>
+                                <div>
+                                    <p class="testimonial-author">Rev. Craig Robertson</p>
+                                    <p class="testimonial-role">Minister</p>
+                                </div>
                             </div>
                         </div>
 
@@ -551,8 +555,10 @@
                                 </div>
 
                                 <p class="testimonial-text">"Dear diary, today I posted my fire icons and got 100mil views. The way I look at life has changed forever. Fire is litty just like the city."</p>
-                                <p class="testimonial-author">Fifth</p>
-                                <p class="testimonial-role">Illustrator</p>
+                                <div>
+                                    <p class="testimonial-author">Fifth</p>
+                                    <p class="testimonial-role">Illustrator</p>
+                                </div>
                             </div>
                             <!-- Testimonial 2 -->
                             <div class="testimonial-card">
@@ -561,8 +567,10 @@
                                 </div>
 
                                 <p class="testimonial-text">"Dear diary, today I posted my fire icons and got 100mil views. The way I look at life has changed forever. Fire is litty just like the city."</p>
-                                <p class="testimonial-author"></p>
-                                <p class="testimonial-role">Illustrator</p>
+                                <div>
+                                    <p class="testimonial-author"></p>
+                                    <p class="testimonial-role">Illustrator</p>
+                                </div>
                             </div>
                         </div>
 
@@ -651,7 +659,7 @@
             <div class="flex-center" style="flex-direction: column;background-image: url(./assets/svgs/red-lines-two.svg); background-position: right top; background-repeat: no-repeat;">
                 <div>
                     <h2 class="section-title" style="color: rgba(0,0,0,0.85);">Contact Us</h2>
-                    <p style="width: 100%; text-align: center; padding: 0 20%; line-height: 1.85; font-size: 1.1rem;">Our staff of industry experts are standing by to assist with your needs. Please, complete and submit this short form and we will respond to your inquiry shortly...</p>
+                    <p  text-align: center; padding: 0 20%; line-height: 1.85; font-size: 1.1rem;">Our staff of industry experts are standing by to assist with your needs. Please, complete and submit this short form and we will respond to your inquiry shortly...</p>
                 </div>
 
                 <div class="contact-us-container" style="display: flex; align-items: center; width: 100%; display: flex; justify-content: center; column-gap: 3%;align-items: flex-start; flex-wrap: wrap;">
@@ -662,7 +670,7 @@
                     </div>
 
                     <div class="contact-us-text-container">
-                        <h2 style="font-size: 2.3rem;">Information</h2>
+                        <h2 style="font-size: 2.3rem; font-weight: 400;">Information</h2>
                         <div style="min-height: 5px; min-width: 100%; background-color: #cccccc;"> 
                             <div style="min-height: 5px; width: 30%; background-color: #bf2026;">
                             </div>
