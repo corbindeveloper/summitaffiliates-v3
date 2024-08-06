@@ -21,7 +21,7 @@
 
     <link rel="stylesheet" href="../../min/base.min.css">
     <link rel="stylesheet" href="../../min/blog.min.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   
     <link rel="stylesheet" href="../../min/hover.min.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +29,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/4229a7500a.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@16.1.2/dist/smooth-scroll.polyfills.min.js"></script>
 </head>
 <body>
     <header>
@@ -62,53 +61,51 @@
         <nav class="bottom-navigation" style="display: flex; justify-content: center; align-items: center; padding: 0.5% 3%; background-color: rgb(235,235,235);">
             <div class="nav-list main-nav-list" style="width: 50%; align-items: center; list-style: none; justify-content: center; margin: 0; padding: 0; column-gap: 9%;">
 
-                <div class="w3-dropdown-hover" style="background-color: rgba(0,0,0,0.0);">
-                    <button class="w3-button" style="text-decoration: none; color: rgb(0,0,0,0.8); font-size: 17px;">About <i class="fa-solid fa-chevron-down" style="color: rgb(0,0,0,0.8);"></i></button>
-                    <div class="w3-dropdown-content w3-bar-block w3-card-4" style="width: 200px; border-radius: 5px;">
-                      <a href="../../about/company-history.html" class="w3-bar-item w3-button">Company History</a>
-                      <!-- <a href="#" class="w3-bar-item w3-button">Leadership Team</a> -->
-                      <a href="../../about/summit-family.html" class="w3-bar-item w3-button">Our Locations</a>
-                      <a href="../../about/careers.html" class="w3-bar-item w3-button">Careers</a>
+                <div class="dropdown">
+                    <li class="dropbtn">About <i class="fa-solid fa-chevron-down" style="color: rgb(0,0,0,0.8); margin: 9%;"></i></li>
+                    <div class="dropdown-content">
+                        <a href="../../about/company-history.html">Company History</a>
+                        <a href="../../about/summit-family.html">Our Locations</a>
+                        <a href="../../about/careers.html">Careers</a>
+                    </div>
+                </div>
+                
+                <div class="dropdown">
+                    <li class="dropbtn">MFP <i class="fa-solid fa-chevron-down" style="color: rgb(0,0,0,0.8); margin: 9%;"></i></li>
+                    <div class="dropdown-content">
+                        <a href="../../product-pages/print/office-mfps.html">Office MFPs</a>
+                        <a href="../../product-pages/print/small-personal-mfps.html">Small & Personal MFPs</a>
+                        <a href="../../product-pages/print/light-production-mfps.html">Production Machines</a>
+                        <a href="../../product-pages/print/label-receipt-printers.html">Label & Receipt Printers</a>
+                        <a href="../../product-pages/print/wide-format-printers.html">Wide Format Printers</a>
+                        <!-- <a href="#" class="w3-bar-item w3-button">Laser Printers</a> -->
+                        <a href="../../product-pages/print/scanners.html">Scanners</a>
+                    </div>
+                </div> 
+
+                <div class="dropdown">
+                    <li class="dropbtn">Mailing <i class="fa-solid fa-chevron-down" style="color: rgb(0,0,0,0.8); margin: 9%;"></i></li>
+                    <div class="dropdown-content">
+                        <a href="../../product-pages/mailing/mail-machines.html">Mail Machines</a>
+                        <a href="../../product-pages/mailing/folder-inserters.html">Folder Inserters</a>
+                        <a href="../../product-pages/mailing/envelope-printers.html">Direct Address Printers</a>
+                        <a href="../../product-pages/mailing/mail-parcel-lockers.html">Mail Lockers</a>
+                        <a href="../../product-pages/mailing/other-equipment.html">Other Equipment</a>
                     </div>
                 </div>
 
-                <div class="w3-dropdown-hover">
-                    <button class="w3-button" style="text-decoration: none; color: rgb(0,0,0,0.8); font-size: 17px;">MFP <i class="fa-solid fa-chevron-down" style="color: rgb(0,0,0,0.8);"></i></button>
-                    <div class="w3-dropdown-content w3-bar-block w3-card-4" style="width: 200px;">
-                      <a href="../../product-pages/print/office-mfps.html" class="w3-bar-item w3-button">Office MFPs</a>
-                      <a href="../../product-pages/print/small-personal-mfps.html" class="w3-bar-item w3-button">Small & Personal MFPs</a>
-                      <a href="../../product-pages/print/light-production-mfps.html" class="w3-bar-item w3-button">Production Machines</a>
-                      <a href="../../product-pages/print/label-receipt-printers.html" class="w3-bar-item w3-button">Label & Receipt Printers</a>
-                      <a href="../../product-pages/print/wide-format-printers.html" class="w3-bar-item w3-button">Wide Format Printers</a>
-                      <!-- <a href="#" class="w3-bar-item w3-button">Laser Printers</a> -->
-                      <a href="../../product-pages/print/scanners.html" class="w3-bar-item w3-button">Scanners</a>
-                    </div>
+                <div class="dropdown">
+                    <li class="dropbtn">Solutions <i class="fa-solid fa-chevron-down" style="color: rgb(0,0,0,0.8); margin: 7%;"></i></li>
+                    <div class="dropdown-content">
+                        <a href="../../product-pages/solutions/business-process-automation.html">Business Process Automation</a>
+                        <a href="../../product-pages/solutions/digital-forms.html">Digital Forms</a>
+                        <a href="../../product-pages/solutions/document-archive-retrieval.html">Document Archive/Retrieval</a>
+                        <a href="../../product-pages/solutions/customer-communication-management.html">Customer Commmunication Management</a>
+                        <a href="../../product-pages/solutions/customer-journey-mapping.html">Customer Journey Mapping</a>
+                        <!-- <a href="./product-pages/solutions/invoice-delivery.html" class="w3-bar-item w3-button">Automated Invoice Delivery</a> -->
+                        <!-- <a href="./product-pages/solutions/systems-integrations.html" class="w3-bar-item w3-button">Systems Integration</a> -->
+                      </div>
                 </div>
-
-                <div class="w3-dropdown-hover">
-                    <button class="w3-button" style="text-decoration: none; color: rgb(0,0,0,0.8); font-size: 17px;">Mailing <i class="fa-solid fa-chevron-down" style="color: rgb(0,0,0,0.8);"></i></button>
-                    <div class="w3-dropdown-content w3-bar-block w3-card-4" style="width: 200px;">
-                        <a href="../../product-pages/mailing/mail-machines.html" class="w3-bar-item w3-button">Mail Machines</a>
-                        <a href="../../product-pages/mailing/folder-inserters.html" class="w3-bar-item w3-button">Folder Inserters</a>
-                        <a href="../../product-pages/mailing/envelope-printers.html" class="w3-bar-item w3-button">Direct Address Printers</a>
-                        <a href="../../product-pages/mailing/mail-parcel-lockers.html" class="w3-bar-item w3-button">Mail Lockers</a>
-                        <a href="../../product-pages/mailing/other-equipment.html" class="w3-bar-item w3-button">Other Equipment</a>
-                    </div>
-                </div>
-
-                <div class="w3-dropdown-hover">
-                    <button class="w3-button" style="text-decoration: none; color: rgb(0,0,0,0.8); font-size: 17px;">Solutions <i class="fa-solid fa-chevron-down" style="color: rgb(0,0,0,0.8);"></i></button>
-                    <div class="w3-dropdown-content w3-bar-block w3-card-4" style="width: 200px;">
-                        <a href="../../product-pages/solutions/business-process-automation.html" class="w3-bar-item w3-button">Business Process Automation</a>
-                        <a href="../../product-pages/solutions/digital-forms.html" class="w3-bar-item w3-button">Digital Forms</a>
-                        <a href="../../product-pages/solutions/document-archive-retrieval.html" class="w3-bar-item w3-button">Document Archive/Retrieval</a>
-                        <a href="../../product-pages/solutions/customer-communication-management.html" class="w3-bar-item w3-button">Customer Commmunication Management</a>
-                        <a href="../../product-pages/solutions/customer-journey-mapping.html" class="w3-bar-item w3-button">Customer Journey Mapping</a>
-                        <!-- <a href="./invoice-delivery.html" class="w3-bar-item w3-button">Automated Invoice Delivery</a> -->
-                        <!-- <a href="./systems-integrations.html" class="w3-bar-item w3-button">Systems Integration</a> -->
-                    </div>
-                </div>
-
                 <div>
                     <a href="../../forms/schedule-assessment.html" class="contact-us-button hvr-pulse" style="text-decoration: none; color: rgb(255,255,255); font-size: 16px; background-color: #bf2026; border-radius: 40px; padding: 10px 16px; text-wrap: nowrap;">Schedule a Free Assessment</a>
                 </div>
