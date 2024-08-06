@@ -11,7 +11,7 @@
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,0) 20%, rgba(191,32,38,0.7) 35%, rgba(191,32,38,1) 60%);
 }
-
+ 
 .hero-content {
     display: flex;
     align-items: center;
