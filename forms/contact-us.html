@@ -27,7 +27,7 @@
 
     <script src="https://kit.fontawesome.com/4229a7500a.js" crossorigin="anonymous"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.4/lottie.min.js"></script>
+    
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -400,50 +400,6 @@
     <script src="../js/min/productslideshow.min.js"></script>
     <script src="../js/min/main.min.js"></script>
     
-
-    <script>
-        document.addEventListener('DOMContentLoaded', (event) => {
-        let currentSlide = 0;
-        const slides = document.querySelectorAll('.testimonial-slide');
-        const dots = document.querySelectorAll('.dot-span');
-
-        function updateSlidePosition() {
-            for (let slide of slides) {
-            slide.style.display = 'none';
-            }
-            slides[currentSlide].style.display = 'flex';
-        }
-
-        function updateDots() {
-            for (let dot of dots) {
-            dot.classList.remove('active');
-            }
-            dots[currentSlide].classList.add('active');
-        }
-
-        function goToSlide(n) {
-            currentSlide = (n + slides.length) % slides.length;
-            updateSlidePosition();
-            updateDots();
-        }
-
-        for (let i = 0; i < dots.length; i++) {
-            dots[i].addEventListener('click', () => {
-            goToSlide(i);
-            });
-        }
-
-        // Initialize the first slide
-        goToSlide(currentSlide);
-        });
-    </script>    
-
-    <script>
-        var scroll = new SmoothScroll('a[href*="#"]', {
-            speed: 1000, // milliseconds
-            speedAsDuration: true
-        });
-    </script> 
 </body>
 
 </html>

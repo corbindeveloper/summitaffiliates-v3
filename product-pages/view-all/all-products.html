@@ -27,11 +27,9 @@
     <link rel="stylesheet" href="../../min/hover.min.css">
     
    
-
     <script src="https://kit.fontawesome.com/4229a7500a.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@16.1.2/dist/smooth-scroll.polyfills.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.4/lottie.min.js"></script>
-
+ 
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -468,22 +466,6 @@
     <script src="../../js/min/productslideshow.min.js"></script>
     <script src="../../js/min/faq-dropdown.min.js"></script>
     <script src="../../js/min/mobileNav.min.js"></script>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', (event) => {
-          const slides = document.querySelectorAll('.content-right-image .slide');
-          let currentSlide = 0;
-        
-          const changeSlide = () => {
-            slides[currentSlide].classList.remove('active');
-            currentSlide = (currentSlide + 1) % slides.length;
-            slides[currentSlide].classList.add('active');
-          };
-        
-          slides[currentSlide].classList.add('active');
-          setInterval(changeSlide, 4000);
-        });
-    </script>
 
 </body>
 

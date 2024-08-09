@@ -27,8 +27,6 @@
 
     <script src="https://kit.fontawesome.com/4229a7500a.js" crossorigin="anonymous"></script>
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.4/lottie.min.js"></script>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -376,66 +374,9 @@
             <p>2023 &copy; Summit Technology Affiliates, LLC | All Rights Reserved.</p>
         </div>
     </footer>
-
-    <!-- SCRIPTS -->
-    <!-- SCRIPTS -->
-    <!-- SCRIPTS -->
-    <script>
-        var animation = lottie.loadAnimation({
-          container: document.getElementById('lottie-container'), // The container for the animation
-          renderer: 'svg',
-          loop: true,
-          autoplay: true,
-          path: './assets/graphics/new/summitanimation.json' // Replace with the path to your Lottie JSON file
-        });
-    </script>
     
     <script src="../js/min/mobileNav.min.js"></script>
     <script src="../js/min/productslideshow.min.js"></script>
     <script src="../js/min/main.min.js"></script>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', (event) => {
-        let currentSlide = 0;
-        const slides = document.querySelectorAll('.testimonial-slide');
-        const dots = document.querySelectorAll('.dot-span');
-
-        function updateSlidePosition() {
-            for (let slide of slides) {
-            slide.style.display = 'none';
-            }
-            slides[currentSlide].style.display = 'flex';
-        }
-
-        function updateDots() {
-            for (let dot of dots) {
-            dot.classList.remove('active');
-            }
-            dots[currentSlide].classList.add('active');
-        }
-
-        function goToSlide(n) {
-            currentSlide = (n + slides.length) % slides.length;
-            updateSlidePosition();
-            updateDots();
-        }
-
-        for (let i = 0; i < dots.length; i++) {
-            dots[i].addEventListener('click', () => {
-            goToSlide(i);
-            });
-        }
-
-        // Initialize the first slide
-        goToSlide(currentSlide);
-        });
-    </script>    
-
-    <script>
-        var scroll = new SmoothScroll('a[href*="#"]', {
-            speed: 1000, // milliseconds
-            speedAsDuration: true
-        });
-    </script>
 </body>
 </html>
