@@ -148,7 +148,7 @@ p {
 }
 
 .aboutus-img {
-    background: url(../assets/graphics/mfp/toshiba-mfp-graphic.jpg);
+    background: url(../assets/graphics/mfp/toshiba-mfp-graphic.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -541,7 +541,7 @@ p {
 
 @media only screen and (max-width: 1965px) {
     .main-section {
-        padding-bottom: 15%;
+        padding-bottom: 24%;
     }
 }
 
@@ -658,7 +658,7 @@ p {
     
 
     .title-container {
-        height: 300px;
+        height: 330px;
     }
 
     .aboutus-text-container {
