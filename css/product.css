@@ -676,11 +676,12 @@
     }
 
     .page-title {
-        font-size: 2.7rem;
+        font-size: 2.2rem;
+        padding-bottom: 10%;
     }
 
     .product-explanation-title {
-        font-size: 2.7rem;
+        font-size: 2.2rem;
     }
 }
 
