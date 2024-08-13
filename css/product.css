@@ -1,7 +1,7 @@
 /* Hero */
 
 .hero-bg {
-    background-image: url(../assets/product-hero-bg.png);
+    background-image: url(../assets/product-hero-bg.webp);
     background-size: cover;
     background-position: left;
     background-repeat: no-repeat;
@@ -699,7 +699,7 @@
 
   @media screen and (max-width: 700px) {
     .hero-bg{
-        background-image: url(../assets/product-hero-bg.png);
+        background-image: url(../assets/product-hero-bg.webp);
         background-size: cover;
         background-position: left;
         background-repeat: no-repeat;
