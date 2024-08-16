@@ -131,6 +131,7 @@ body {
     width: 100%;
     line-height: 2.2;
     font-size: 1.3rem;
+    color: #000;
 }
 
 .mobile-navigation-item {
@@ -160,6 +161,7 @@ body {
     text-align: center;
     background-color: rgba(0,0,0,0.1);
     border-bottom: 1px solid rgba(0,0,0,0.2);
+    color: #000;
 }
 
 .mobile-drop-navigation > a:hover {
