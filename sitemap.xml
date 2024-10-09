@@ -115,6 +115,8 @@
       <priority>0.8</priority>
    </url>
 
+
+
    <!-- Blog Center -->
    <url>
       <loc>https://summitaffiliates.com/blog-center/blog-center.html</loc>
@@ -126,6 +128,14 @@
    </url>
       <url>
       <loc>https://summitaffiliates.com/blog-center/mailing/folder-insert-change-work.html</loc>
+      <priority>0.6</priority>
+   </url>
+   <url>
+      <loc>https://summitaffiliates.com/blog-center/printing/office-copiers-thrive.html</loc>
+      <priority>0.6</priority>
+   </url>
+   <url>
+      <loc>https://summitaffiliates.com/blog-center/printing/printer-collate.html</loc>
       <priority>0.6</priority>
    </url>
 

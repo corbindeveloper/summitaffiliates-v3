@@ -91,6 +91,9 @@
 .blog-bg {
     background: url(../assets/svgs/RectLight2.svg);
     background-color: rgb(252, 252, 252);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .blog-link {
