@@ -494,7 +494,7 @@ p {
 .resources-card-image > img {
     border-radius: 6px;
     min-width: 50%;
-    min-height: 50%
+    min-height: 50%;
 }
 
 .resources-card-title {

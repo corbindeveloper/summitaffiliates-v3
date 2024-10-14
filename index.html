@@ -616,9 +616,10 @@
                 </div>
 
                 <div class="products-bottom" style="margin-top: 20px; column-gap: 70px;">
+                    
                     <div class="resources-card">
                         <div class="resources-card-image">
-                            <img src="./assets/graphics/stock/printer-security.webp" alt="Blog Image">
+                            <img src="./assets/graphics/stock/printer-security.webp" alt="Copier and Printer Cyber Threats Blog Image">
                         </div>
                         <br>
                         <div class="resources-card-text">
@@ -630,8 +631,21 @@
                     </div>
 
                     <div class="resources-card">
+                    <div class=" resources-card-image">
+                        <img src="./assets/graphics/stock/office-writing.webp" alt="Security of Document Management Software Blog Image">
+                    </div>
+                    <br>
+                    <div class="resources-card-text">
+                        <h3 class="resources-card-title">The Security of Document Management Software</h3>
+                        <p class="resources-card-description">Experience relief and business advancement with DMS</p>
+                    </div>
+                    <br>
+                    <a href="./blog-center/mailing/document-management-security.html" class="products-card-link resources-btn">Read More</a>
+                </div>
+
+                    <div class="resources-card">
                         <div class="resources-card-image">
-                            <img src="./assets/graphics/stock/collate.webp" style="max-height: 480px;" alt="Blog Image">
+                            <img src="./assets/graphics/stock/collate.webp" alt="Collate Printer Blog Image">
                         </div> 
                         <br>
                         <div class="resources-card-text">
@@ -641,24 +655,11 @@
                         <br>
                         <a href="./blog-center/printing/printer-collate.html" class="products-card-link resources-btn">Read More</a>
                     </div> 
-
-                    <div class="resources-card">
-                        <div class=" resources-card-image">
-                            <img src="./assets/graphics/stock/office-writing.webp" alt="Blog Image">
-                        </div>
-                        <br>
-                        <div class="resources-card-text">
-                            <h3 class="resources-card-title">Are document processes holding your business back?</h3>
-                            <p class="resources-card-description">Learn how Impress Automate can help you document processes</p>
-                        </div>
-                        <br>
-                        <a href="./blog-center/mailing/document-process-back.html" class="products-card-link resources-btn">Read More</a>
-                    </div>
-                  
-                        
+      
                 </div>
 
             </div>
+            
         </section>
 
         <!-- ## Contact Us ## -->
@@ -853,5 +854,41 @@
         });
     </script>    
 
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.resources-slide');
+        const dots = document.querySelectorAll('.dot-span');
+
+        function updateSlidePosition() {
+            for (let slide of slides) {
+            slide.style.display = 'none';
+            }
+            slides[currentSlide].style.display = 'flex';
+        }
+
+        function updateDots() {
+            for (let dot of dots) {
+            dot.classList.remove('active');
+            }
+            dots[currentSlide].classList.add('active');
+        }
+
+        function goToSlide(n) {
+            currentSlide = (n + slides.length) % slides.length;
+            updateSlidePosition();
+            updateDots();
+        }
+
+        for (let i = 0; i < dots.length; i++) {
+            dots[i].addEventListener('click', () => {
+            goToSlide(i);
+            });
+        }
+
+        // Initialize the first slide
+        goToSlide(currentSlide);
+        });
+    </script>
 </body>
 </html>
