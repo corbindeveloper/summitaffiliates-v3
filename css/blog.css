@@ -89,8 +89,7 @@
 }
 
 .blog-bg {
-    background: url(../assets/svgs/RectLight2.svg);
-    background-color: rgb(252, 252, 252);
+    background-color: rgba(0, 0, 0, 0.3);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -137,6 +136,10 @@
 
 /* Blog Content */
 
+.blog-action-container {
+    margin: 0 5%;
+}
+
 .blog-content {
     display: flex;
     flex-direction: column;
@@ -146,6 +149,7 @@
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     padding: 2% 0 4% 0;
+    margin: 0 5%;
 }
 
 .blog-date {
@@ -265,6 +269,11 @@
         flex-direction: column;
         justify-content: center;
         text-align: center; 
+        margin: 0 0;
+    }
+
+    .blog-content {
+        margin: 0 0;
     }
 
     .action-btn {
