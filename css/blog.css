@@ -89,7 +89,7 @@
 }
 
 .blog-bg {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.025);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -145,7 +145,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);
+    box-shadow:  rgba(0, 0, 0, 0.6) 0px 15px 30px 3px;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     padding: 2% 0 4% 0;
