@@ -552,8 +552,8 @@
                         </div>
 
                         <!-- Slide 3 -->
-                        <div class="testimonial-slide">
-                            <!-- Testimonial 1 -->
+                        <!-- <div class="testimonial-slide">
+                            
                             <div class="testimonial-card">
                                 <div style="display: flex; align-items: center; justify-content: center;">
                                     <img src="./assets/icons/quotes/red-quotes.svg" alt="" width="60px">
@@ -565,7 +565,7 @@
                                     <p class="testimonial-role">Illustrator</p>
                                 </div>
                             </div>
-                            <!-- Testimonial 2 -->
+                           
                             <div class="testimonial-card">
                                 <div style="display: flex; align-items: center; justify-content: center;">
                                     <img src="./assets/icons/quotes/red-quotes.svg" alt="" width="60px">
@@ -577,7 +577,7 @@
                                     <p class="testimonial-role">Illustrator</p>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
                         <!-- Additional slides with two testimonials each would follow in similar structure -->
 
@@ -589,12 +589,12 @@
                         <span class="dot-span">
                             <i class="fa-solid fa-circle circle-dot"></i>
                         </span>
-                        <span class="dot-span">
-                            <i class="fa-solid fa-circle circle-dot"></i>
-                        </span>
                         <span class="dot-span last-dot">
                             <i class="fa-solid fa-circle circle-dot"></i>
                         </span>
+                        <!-- <span class="dot-span last-dot">
+                            <i class="fa-solid fa-circle circle-dot"></i>
+                        </span> -->
                 </div>
         </section>
 
@@ -855,9 +855,17 @@
             updateDots();
         }
 
+        const intervalTime = 6000;
+
+        // Start the interval
+        let interval = setInterval(function() {
+        goToSlide((currentSlide + 1) % slides.length);
+        }, intervalTime);
+
         for (let i = 0; i < dots.length; i++) {
             dots[i].addEventListener('click', () => {
             goToSlide(i);
+            clearInterval(interval);
             });
         }
 
