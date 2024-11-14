@@ -166,6 +166,10 @@
       <loc>https://summitaffiliates.com/blog-center/printing/copiers-mfp.html</loc>
       <priority>0.6</priority>
    </url>
+   <url>
+      <loc>https://summitaffiliates.com/blog-center/mailing/digital-form-blog.html</loc>
+      <priority>0.6</priority>
+   </url>
    <!-- About Pages -->
    <url>
       <loc>https://summitaffiliates.com/about/about-us.html</loc>
