@@ -466,8 +466,8 @@ p {
     padding: 0;
     
     width: 100%;
-    min-width: 300px;
-    min-height: 350px;
+    min-width: 360px;
+    min-height: 375px;
     display: flex;
     align-items: center;
     justify-content: center;

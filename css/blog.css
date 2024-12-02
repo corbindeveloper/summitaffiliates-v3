@@ -90,9 +90,10 @@
 
 .blog-bg {
     background-color: rgba(0, 0, 0, 0.025);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-image: url("../assets/svgs/blogbg.svg");
+    background-repeat: repeat;
+    background-position: top;
+    background-size: contain;
 }
 
 .blog-link {
