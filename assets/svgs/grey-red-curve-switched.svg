@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="visual" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 451">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bf2026;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" width="900" height="450"/>
+  <path class="cls-1" d="M0,447l30-11c30-11,90-33,150-48s120-23,180-32.3c60-9.4,120-20,180-14.9,60,5.2,120,26.2,180,.7s120-97.5,150-133.5l30-36v279H0v-4Z"/>
+</svg>
