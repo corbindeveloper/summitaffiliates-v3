@@ -78,19 +78,20 @@
 .blog-card-title {
     text-align: center;
     letter-spacing: 1px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     padding: 0 0 3% 0;
+    height: 84px;
 }
 
 .blog-summary {
     color: rgba(0, 0, 0, 0.6);
     text-align: center;
     padding: 0 0 3% 0;
+    font-size: 14px;
 }
 
 .blog-bg {
     background-color: rgba(0, 0, 0, 0.025);
-    background-image: url("../assets/svgs/blogbg.svg");
     background-repeat: repeat;
     background-position: top;
     background-size: contain;
