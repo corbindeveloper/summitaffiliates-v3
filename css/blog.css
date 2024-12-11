@@ -107,6 +107,7 @@
 
 .blog-bg {
     background-color: rgba(0, 0, 0, 0.025);
+    background: url("../assets/svgs/icongridsvgblogcenter1-01.svg");
     background-repeat: repeat;
     background-position: top;
     background-size: contain;
