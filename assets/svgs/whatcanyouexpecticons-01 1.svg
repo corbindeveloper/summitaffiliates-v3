@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bf2026;
+      }
+
+      .cls-2 {
+        filter: url(#drop-shadow-2);
+      }
+
+      .cls-3 {
+        fill: #bababa;
+      }
+
+      .cls-4 {
+        fill: #5b5b5b;
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-8 {
+        fill: #9b9b9b;
+      }
+
+      .cls-9 {
+        filter: url(#drop-shadow-8);
+      }
+
+      .cls-9, .cls-10, .cls-11, .cls-12 {
+        fill: #f4f4f4;
+      }
+
+      .cls-6 {
+        filter: url(#drop-shadow-5);
+      }
+
+      .cls-13 {
+        fill: none;
+        stroke: #bf2026;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-10 {
+        filter: url(#drop-shadow-7);
+      }
+
+      .cls-7 {
+        filter: url(#drop-shadow-3);
+      }
+
+      .cls-14 {
+        fill: #faf1f1;
+      }
+
+      .cls-15 {
+        fill: #ddd;
+      }
+
+      .cls-8 {
+        filter: url(#drop-shadow-4);
+      }
+
+      .cls-11 {
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-12 {
+        filter: url(#drop-shadow-6);
+      }
+    </style>
+    <filter id="drop-shadow-1" x="339.74" y="215.69" width="587" height="622" filterUnits="userSpaceOnUse">
+      <feOffset dx="-8" dy="4"/>
+      <feGaussianBlur result="blur" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".5"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-2" x="362.74" y="221.69" width="230" height="450" filterUnits="userSpaceOnUse">
+      <feOffset dx="-8" dy="4"/>
+      <feGaussianBlur result="blur-2" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".5"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-3" x="994.74" y="447.69" width="327" height="186" filterUnits="userSpaceOnUse">
+      <feOffset dx="-8" dy="4"/>
+      <feGaussianBlur result="blur-3" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".5"/>
+      <feComposite in2="blur-3" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-4" x="1129.74" y="242.69" width="327" height="186" filterUnits="userSpaceOnUse">
+      <feOffset dx="-8" dy="4"/>
+      <feGaussianBlur result="blur-4" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".5"/>
+      <feComposite in2="blur-4" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-5" x="1129.74" y="653.69" width="327" height="186" filterUnits="userSpaceOnUse">
+      <feOffset dx="-8" dy="4"/>
+      <feGaussianBlur result="blur-5" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".5"/>
+      <feComposite in2="blur-5" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-6" x="1143.74" y="256.69" width="300" height="158" filterUnits="userSpaceOnUse">
+      <feOffset dx="-8" dy="4"/>
+      <feGaussianBlur result="blur-6" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".5"/>
+      <feComposite in2="blur-6" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-7" x="1143.74" y="667.69" width="300" height="158" filterUnits="userSpaceOnUse">
+      <feOffset dx="-8" dy="4"/>
+      <feGaussianBlur result="blur-7" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".5"/>
+      <feComposite in2="blur-7" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-8" x="1008.74" y="460.69" width="300" height="159" filterUnits="userSpaceOnUse">
+      <feOffset dx="-8" dy="4"/>
+      <feGaussianBlur result="blur-8" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".5"/>
+      <feComposite in2="blur-8" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Layer_10" data-name="Layer 10">
+    <path class="cls-14" d="M1410.12,359.24c-8.14-17.28-16.67-34.52-29.35-55.17-13.14-21.4-40.1-61.75-96.26-115.04-64.75-61.44-113.22-107.44-191.35-129.13-25.03-6.95-55.26-15.01-93.91-9.39-57.11,8.3-98.36,41.48-125.61,63.39-6.04,4.86-24.46,22.87-61.04,58.7-65.31,63.95-63.63,63.62-71.61,69.26-44.3,31.33-91.15,38.1-136.17,44.61-61.44,8.88-69.37-2.28-116.22,10.57-20.75,5.69-58.17,15.95-92.74,45.78-53.81,46.44-66.06,110.44-72.78,145.57-11.96,62.5-2.03,112.14,3.52,138.52,5.75,27.33,23.88,98.77,81,167.87,7.61,9.2,36.68,43.5,84.52,76.3,29.43,20.19,53.04,36.37,86.87,45.78,74.14,20.63,157.34-2.42,210.13-37.57,13.89-9.25,28.05-20.91,55.17-34.04,28.44-13.77,53.02-25.67,83.35-24.65,22.44.76,45.4,13.04,90.39,37.57,23.47,12.8,27.44,16.22,72.78,43.43,70.96,42.58,85.13,48.52,97.43,52.83,16.21,5.67,42.53,14.65,76.3,15.26,74.73,1.34,128.86-39.36,143.22-50.48,51.05-39.53,71.64-88.48,81-111.52,30.05-74,21.63-139.45,15.26-189-10.62-82.55-38.74-142.28-93.91-259.43v-.02Z"/>
+  </g>
+  <g id="Layer_3" data-name="Layer 3">
+    <rect class="cls-1" x="824.85" y="537.19" width="195.77" height="1.76"/>
+    <g>
+      <rect class="cls-1" x="760.64" y="607.39" width="206.52" height="1.76"/>
+      <rect class="cls-1" x="968.92" y="743.19" width="195.77" height="1.76"/>
+      <rect class="cls-1" x="899.26" y="675.29" width="137.56" height="1.76" transform="translate(291.87 1644.2) rotate(-90)"/>
+    </g>
+    <g>
+      <rect class="cls-1" x="964.43" y="333.16" width="206.52" height="1.76" transform="translate(2135.37 668.08) rotate(-180)"/>
+      <rect class="cls-1" x="766.89" y="468.96" width="195.77" height="1.76" transform="translate(1729.56 939.68) rotate(-180)"/>
+      <rect class="cls-1" x="894.77" y="401.06" width="137.56" height="1.76" transform="translate(561.61 1365.48) rotate(-90)"/>
+    </g>
+    <line class="cls-13" x1="748.01" y1="652.13" x2="819.58" y2="652.13"/>
+    <circle class="cls-13" cx="825.25" cy="652.13" r="5.67"/>
+    <line class="cls-13" x1="810.72" y1="383.1" x2="882.28" y2="383.1"/>
+    <circle class="cls-13" cx="887.96" cy="383.1" r="5.67"/>
+    <line class="cls-13" x1="665.1" y1="744.78" x2="923.74" y2="744.78"/>
+    <line class="cls-13" x1="796.23" y1="573.22" x2="867.8" y2="573.22"/>
+    <circle class="cls-13" cx="873.48" cy="573.22" r="5.67"/>
+    <circle class="cls-13" cx="873.48" cy="697.63" r="5.67"/>
+    <line class="cls-13" x1="852.17" y1="503.07" x2="923.74" y2="503.07"/>
+    <circle class="cls-13" cx="929.41" cy="503.07" r="5.67"/>
+    <circle class="cls-13" cx="929.41" cy="744.78" r="5.67"/>
+    <polyline class="cls-13" points="786.07 744.78 786.07 697.63 867.8 697.63"/>
+    <circle class="cls-13" cx="914.34" cy="335.95" r="5.67"/>
+    <polyline class="cls-13" points="826.94 383.1 826.94 335.95 908.67 335.95"/>
+  </g>
+  <g id="Layer_1" data-name="Layer 1">
+    <rect class="cls-11" x="470.61" y="281.36" width="340.64" height="483.23" transform="translate(414.26 -272.58) rotate(34.88)"/>
+    <g>
+      <line class="cls-13" x1="576.96" y1="646.43" x2="437.22" y2="549.36"/>
+      <line class="cls-13" x1="466.84" y1="506.71" x2="715.04" y2="679.13"/>
+      <line class="cls-13" x1="499.81" y1="459.25" x2="748.01" y2="631.67"/>
+      <line class="cls-13" x1="532.38" y1="412.37" x2="780.58" y2="584.79"/>
+      <line class="cls-13" x1="565.45" y1="364.77" x2="813.65" y2="537.19"/>
+      <line class="cls-13" x1="599.32" y1="316.01" x2="847.52" y2="488.43"/>
+      <line class="cls-13" x1="630.95" y1="270.48" x2="879.15" y2="442.9"/>
+    </g>
+    <g class="cls-2">
+      <rect class="cls-5" x="472.48" y="241.51" width="33.04" height="401.89" transform="translate(-137.17 235.57) rotate(-23.86)"/>
+      <rect class="cls-3" x="477.23" y="264.01" width="12.99" height="382.63" transform="translate(-142.82 234.54) rotate(-23.86)"/>
+      <polygon class="cls-15" points="581.79 652.36 585.31 619.58 555.15 632.91 581.79 652.36"/>
+      <polygon class="cls-1" points="581.77 652.33 582.52 645.38 576.13 648.21 581.77 652.33"/>
+      <path class="cls-1" d="M396.88,235.52h11.94c5.83,0,10.57,4.73,10.57,10.57v13.62h-33.07v-13.62c0-5.83,4.73-10.57,10.57-10.57Z" transform="translate(-65.73 184.08) rotate(-23.86)"/>
+      <rect class="cls-4" x="389.87" y="258.4" width="38.35" height="6.42" rx="3.07" ry="3.07" transform="translate(-70.86 187.78) rotate(-23.86)"/>
+      <rect class="cls-4" x="392.46" y="264.27" width="38.35" height="6.42" rx="3.07" ry="3.07" transform="translate(-73.01 189.33) rotate(-23.86)"/>
+      <rect class="cls-4" x="395.06" y="270.15" width="38.35" height="6.42" rx="3.07" ry="3.07" transform="translate(-75.17 190.88) rotate(-23.86)"/>
+      <rect class="cls-4" x="397.66" y="276.02" width="38.35" height="6.42" rx="3.07" ry="3.07" transform="translate(-77.32 192.44) rotate(-23.86)"/>
+    </g>
+  </g>
+  <g id="Layer_2" data-name="Layer 2">
+    <rect class="cls-7" x="1018.53" y="459.25" width="296.05" height="154.87" rx="29.55" ry="29.55"/>
+    <rect class="cls-8" x="1153.35" y="253.84" width="296.05" height="154.87" rx="29.55" ry="29.55"/>
+    <rect class="cls-6" x="1153.35" y="665.24" width="296.05" height="154.87" rx="29.55" ry="29.55"/>
+    <rect class="cls-12" x="1166.81" y="267.73" width="269.14" height="127.1" rx="25.49" ry="25.49"/>
+    <rect class="cls-10" x="1166.81" y="679.13" width="269.14" height="127.1" rx="25.49" ry="25.49"/>
+    <rect class="cls-9" x="1032.24" y="472.64" width="269.14" height="127.1" rx="25.49" ry="25.49"/>
+  </g>
+  <g id="Layer_4" data-name="Layer 4">
+    <rect class="cls-1" x="1068.92" y="535.31" width="195.77" height="1.76"/>
+    <rect class="cls-1" x="1068.92" y="503.07" width="195.77" height="1.76"/>
+    <rect class="cls-1" x="1068.92" y="567.55" width="195.77" height="1.76"/>
+    <rect class="cls-1" x="1203.49" y="741.8" width="195.77" height="1.76"/>
+    <rect class="cls-1" x="1203.49" y="709.57" width="195.77" height="1.76"/>
+    <rect class="cls-1" x="1203.49" y="774.04" width="195.77" height="1.76"/>
+    <rect class="cls-1" x="1203.49" y="330.4" width="195.77" height="1.76"/>
+    <rect class="cls-1" x="1203.49" y="298.17" width="195.77" height="1.76"/>
+    <rect class="cls-1" x="1203.49" y="362.64" width="195.77" height="1.76"/>
+  </g>
+</svg>
