@@ -267,6 +267,11 @@ footer {
 
 
 @media only screen and (max-width: 1150px) {
+    .contact-us-text-container > img {
+        display: none;
+    }
+
+
     .footer-bottom {
         padding: 4% 3% 5% 3%;
         column-gap: 40px;
