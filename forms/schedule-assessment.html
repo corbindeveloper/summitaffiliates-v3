@@ -64,7 +64,7 @@
     <nav class="bottom-navigation" style="display: flex; justify-content: center; align-items: center; padding: 0.5% 3%; background-color: rgb(235,235,235);">
         <div class="nav-list main-nav-list" style="width: 50%; align-items: center; list-style: none; justify-content: center; margin: 0; padding: 0; column-gap: 9%;">
             <div class="dropdown">
-                <li class="dropbtn">About <i class="fa-solid fa-chevron-down" style="color: rgb(0,0,0,0.8); margin: 9%;"></i></li>
+                <li class="dropbtn">About <img src="../../assets/svgs/downarrow.svg" width="16px" height="18px" alt="dropdown icon" style="color: rgb(0,0,0,0.8); margin: 12%;"></li>
                 <div class="dropdown-content">
                     <a href="../about/company-history.html">Company History</a>
                     <a href="../about/summit-family.html">Our Locations</a>
@@ -73,7 +73,7 @@
             </div>
             
             <div class="dropdown">
-                <li class="dropbtn">Copiers <i class="fa-solid fa-chevron-down" style="color: rgb(0,0,0,0.8); margin: 9%;"></i></li>
+                <li class="dropbtn">Copiers <img src="../../assets/svgs/downarrow.svg" width="16px" height="18px" alt="dropdown icon" style="color: rgb(0,0,0,0.8); margin: 12%;"></li>
                 <div class="dropdown-content">
                     <a href="../product-pages/print/office-mfps.html">Office Copiers</a>
                     <a href="../product-pages/print/small-personal-mfps.html">Small & Personal Copiers</a>
@@ -86,7 +86,7 @@
             </div> 
 
             <div class="dropdown">
-                <li class="dropbtn">Mailing <i class="fa-solid fa-chevron-down" style="color: rgb(0,0,0,0.8); margin: 9%;"></i></li>
+                <li class="dropbtn">Mailing <img src="../../assets/svgs/downarrow.svg" width="16px" height="18px" alt="dropdown icon" style="color: rgb(0,0,0,0.8); margin: 12%;"></li>
                 <div class="dropdown-content">
                     <a href="../product-pages/mailing/mail-machines.html">Mail Machines</a>
                     <a href="../product-pages/mailing/folder-inserters.html">Folder Inserters</a>
@@ -97,7 +97,7 @@
             </div>
 
             <div class="dropdown">
-                <li class="dropbtn">Solutions <i class="fa-solid fa-chevron-down" style="color: rgb(0,0,0,0.8); margin: 7%;"></i></li>
+                <li class="dropbtn">Solutions <img src="../../assets/svgs/downarrow.svg" width="16px" height="18px" alt="dropdown icon" style="color: rgb(0,0,0,0.8); margin: 9%;"></li>
                 <div class="dropdown-content">
                     <a href="../product-pages/solutions/business-process-automation.html">Business Process Automation</a>
                     <a href="../product-pages/solutions/digital-forms.html">Digital Forms</a>
@@ -121,7 +121,7 @@
         <!-- Mobile Navigation -->
         <div class="mobile-navigation">
             <div class="mobile-navigation-btn" onclick="mobileMenu()">
-                <i class="fa-solid fa-bars" style="font-size: 1.7rem; padding: 1px 10px; margin: 15px 0; border-radius: 5px;"></i>
+                <img src="../assets/svgs/hamburger_icon.svg" width="60px" height="26px" style="font-size: 1.7rem; padding: 1px 10px; margin: 15px 0; border-radius: 5px;">
             </div>
 
             <div class="mobile-navigation-list" id="mobile-nav-list">
@@ -133,7 +133,7 @@
 
                 <div class="mobile-navigation-item" onclick="aboutDrop()">  
                     <div class="aboutus-navigation-item">
-                        <span style="display: flex; align-items: center; justify-content: center;">About Us <i class="fa-solid fa-chevron-down" style="padding-left: 10px; font-size: 1.3rem; color: rgba(0,0,0,0.8);"></i></span>
+                        <span style="display: flex; align-items: center; justify-content: center;">About Us <img src="../assets/svgs/downarrow.svg" width="30px" height="auto" alt="dropdown icon" style="padding-left: 10px; font-size: 1.3rem; color: rgba(0,0,0,0.8);"></span>
                     </div>                  
                 </div>
                 <div class="mobile-drop-navigation" id="about-navigation">
@@ -144,7 +144,7 @@
 
                 <div class="mobile-navigation-item" onclick="mfpDrop()">  
                     <div class="mfp-navigation-item">
-                        <span>Copiers <i class="fa-solid fa-chevron-down" style="padding-left: 10px; font-size: 1.3rem; color: rgba(0,0,0,0.8);"></i></span>
+                        <span>Copiers <img src="../assets/svgs/downarrow.svg" width="30px" height="auto" alt="dropdown icon" style="padding-left: 10px; font-size: 1.3rem; color: rgba(0,0,0,0.8);"></span>
                     </div>                  
                 </div>
                 <div class="mobile-drop-navigation" id="mfp-navigation">
@@ -159,7 +159,7 @@
 
                 <div class="mobile-navigation-item" onclick="mailDrop()">
                     <div class="mail-navigation-item">                      
-                        <span>Mailing <i class="fa-solid fa-chevron-down" style="padding-left: 10px; font-size: 1.3rem; color: rgba(0,0,0,0.8);"></i></span>                       
+                        <span>Mailing <img src="../assets/svgs/downarrow.svg" width="30px" height="auto" alt="dropdown icon" style="padding-left: 10px; font-size: 1.3rem; color: rgba(0,0,0,0.8);"></span>                       
                     </div>
                 </div>
                 <div class="mobile-drop-navigation" id="mail-navigation">
@@ -169,6 +169,21 @@
                     <a href="../product-pages/mailing/mail-parcel-lockers.html" >Mail Lockers</a>
                     <a href="../product-pages/mailing/other-equipment.html" >Other Equipment</a>
                 </div>  
+
+                <div class="mobile-navigation-item" onclick="solutionsDrop()">
+                    <div class="mail-navigation-item">                      
+                        <span>Solutions <img src="../assets/svgs/downarrow.svg" width="30px" height="auto" alt="dropdown icon" style="padding-left: 10px; font-size: 1.3rem; color: rgba(0,0,0,0.8);"></span>                        
+                    </div>
+                </div>
+                <div class="mobile-drop-navigation" id="solutions-navigation">
+                <a href="../product-pages/solutions/business-process-automation.html">Business Process Automation</a>
+                  <a href="../product-pages/solutions/digital-forms.html">Digital Forms</a>
+                  <a href="../product-pages/solutions/document-archive-retrieval.html">Document Archive/Retrieval</a>
+                  <a href="../product-pages/solutions/customer-communication-management.html">Customer Commmunication Management</a>
+                  <a href="../product-pages/solutions/customer-journey-mapping.html">Customer Journey Mapping</a>
+                  <!-- <a href="../product-pages/solutions/invoice-delivery.html">Automated Invoice Delivery</a> -->
+                  <!-- <a href="../product-pages/solutions/systems-integrations.html">Systems Integration</a> -->
+                </div> 
             </div>
         </div>
     </nav>
