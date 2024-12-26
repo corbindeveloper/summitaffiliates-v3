@@ -425,8 +425,14 @@ p {
     align-items: center;
 }
 
+
+
 .circle-dot {
     color: rgba(0,0,0,0.1);
+    width: 16px;
+    height:16px;
+    border-radius: 50%;
+    background-color: #ccc;
 }
 
 .dot-span {
@@ -438,12 +444,12 @@ p {
     padding-right: 0;
 }
 
-.dot-span.active i {
-    color: #bf2026; /* Active dot color */
+.dot-span.active div {
+    background-color: #bf2026; /* Active dot color */
 }
 
-.dot-span i {
-    color: #ccc; /* Inactive dot color */
+.dot-span div {
+    background-color: #ccc; /* Inactive dot color */
 } 
 
 /* Resource Cards */
