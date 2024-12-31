@@ -590,6 +590,7 @@
 
     .product-features-container {
         padding: 5% 5% 3% 5%;
+        background-size: contain;
     }
 
     .product-features-content { 
