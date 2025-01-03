@@ -14,7 +14,6 @@ function expandCard(iconElement) {
     }
   }
   
-  
   /*Javascript to make the header change words on Blur*/  
   const textElement = document.getElementById('change-header');
   const texts = ["Managed Print Solutions", "Mailing Automation", "Document Management"];
@@ -41,4 +40,15 @@ function expandCard(iconElement) {
   }
 
   headingBlur();
-  
+  //Section Scrolling
+  const scrollItems = document.querySelectorAll('.scroll-item');
+  function handleScroll() {
+    scrollItems.forEach(item => {
+      const rect = item.getBoundingClientRect();
+      if(rect.top <= window.innerHeight * 0.8) {
+        item.classList.add('visible');
+      }
+    });}
+
+    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('load', handleScroll);
