@@ -146,6 +146,13 @@
     font-weight: 600;
 }
 
+
+
+
+.location-text > p {
+    font-size: 14px;
+}
+
 .location-btn {
     background-color: #bf2026;
     text-decoration: none; 
