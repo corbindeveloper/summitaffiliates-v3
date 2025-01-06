@@ -125,11 +125,9 @@
 
 .location-card {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
     width: 30%;
     min-width: 350px;
-    min-height: 250px;
+    min-height: 274px;
     padding: 0 2% 1% 2%; 
     line-height: 1.8;
     margin: 1%;
@@ -137,10 +135,16 @@
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
 }
 
-.location-card > h3 {
-    font-weight: 600;
+.location-text {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 60%;
 }
 
+.location-text > h3 {
+    font-weight: 600;
+}
 
 .location-btn {
     background-color: #bf2026;
@@ -150,7 +154,7 @@
     border-radius: 50px;
     transition: all .3s ease-in-out;
     text-align: center;
-    width: 40%;
+    width: 100%;
     min-width: 180px;
     max-width: 240px;
     margin-top: 20px;
@@ -159,6 +163,14 @@
 .location-btn:hover{ 
     background-color: #fff;
     color:#bf2026; 
+}
+
+.location-image {
+    background: url("../assets/locations/locations-07.svg");
+    background-repeat: no-repeat;
+    justify-content: center;
+    width: 40%;
+    
 }
 
 /* Mobile Layout */
@@ -175,5 +187,14 @@
         min-width: 330px;  
     }
 
+    .location-text {
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .location-image {
+        display:none;
+    }
 }
 
