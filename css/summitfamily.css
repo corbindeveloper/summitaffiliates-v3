@@ -185,23 +185,30 @@
     
     .locations-description > h1 {
         text-align: center;
+        
     }
 
     .location-card {
         align-items: center;
         text-align: center;
         margin: 10%;
-        min-width: 330px;  
+        min-width: 330px; 
+        min-height: 300px; 
+        flex-direction: column;
+      
     }
 
     .location-text {
         align-items: center;
         text-align: center;
         width: 100%;
+        order: 2;
     }
 
     .location-image {
-        display:none;
+        align-items: center;
+        height: 75px;
+        order: 1;
     }
 }
 
