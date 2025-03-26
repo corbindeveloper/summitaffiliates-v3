@@ -205,6 +205,15 @@
       <loc>https://summitaffiliates.com/blog-center/mailing/ix7-blog.html</loc>
       <priority>0.6</priority>
    </url>
+   <url> 
+      <loc>https://summitaffiliates.com/blog-center/mailing/mail-tactic.html</loc>
+      <priority>0.6</priority>
+   </url>
+   <url> 
+      <loc>https://summitaffiliates.com/blog-center/printing/signage.html</loc>
+      <priority>0.6</priority>
+   </url>
+  
    <!-- About Pages -->
    <url>
       <loc>https://summitaffiliates.com/about/about-us.html</loc>
