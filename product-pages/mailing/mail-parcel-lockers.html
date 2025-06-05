@@ -604,7 +604,7 @@
 
     </main>
 
-    <footer>
+  <footer>
         <div class="footer-top" style="background-color: #bf2026;">
             <p class="footer-title">Helping Business Efficiency and Growth since 1987</p>
         </div>
@@ -660,29 +660,28 @@
                     <!-- <li><a href="../solutions/systems-integrations.html">Systems Integrations</a></li> -->
                 </ul>
             </div>
-
         </div>
         <div class="footer-boxes">
             <div class="footer-boxes-line">
                 <div class="footer-logobox">
                     <a href="../../locations/okc.html">
-                    <img src="../../assets/logos/SBS-2020v2-01.png" alt="Summit Business Logo">
+                    <img src="../../assets/logos/SBS-logo-new-01.webp" alt="Summit Business Logo">
                     </a>
 
                     <a href="../../locations/okc.html">
-                    <img src="../../assets/logos/SMS-2020v2-01.png" alt="Summit Mailing Logo">
+                    <img src="../../assets/logos/SMS-new-logo-01.webp" alt="Summit Mailing Logo">
                     </a>
 
                     <a href="../../locations/cci.html">
-                    <img src="../../assets/logos/CCI-2020v2-01.png" alt="CCI Office Technology Logo">
+                    <img src="../../assets/logos/CCI-logo-new.webp" alt="CCI Office Technology Logo">
                     </a>
 
                     <a href="../../locations/jmp.html">
-                    <img src="../../assets/logos/JMP-2020v2-01.png" alt="JMP Office Technology Logo">
+                    <img src="../../assets/logos/JMP-logo-new.webp" alt="JMP Office Technology Logo">
                     </a>
 
                     <a href="../../locations/mot.html">
-                    <img src="../../assets/logos/MOT-2020v2-01.png" alt="Midwest Office Technology Logo">
+                    <img src="../../assets/logos/MOT-logo-new.webp" alt="Midwest Office Technology Logo">
                     </a>
                 </div>
                 
@@ -696,108 +695,88 @@
 
 
 
-
     <script src="../../js/min/productslideshow.min.js"></script>
     <script src="../../js/min/faq-dropdown.min.js"></script>
     <script src="../../js/min/mobileNav.min.js"></script>
 
     <script>
         document.addEventListener('DOMContentLoaded', (event) => {
-          let valueDisplays = document.querySelectorAll('.num');
-          let interval = 4000;
+          const slides = document.querySelectorAll('.content-right-image .slide');
+          let currentSlide = 0;
         
-          let startCounting = (valueDisplay) => {
-            let startValue = 0;
-            let endValue = parseInt(valueDisplay.getAttribute('data-val'));
-            let duration = Math.floor(interval / endValue);
-            let counter = setInterval(function () {
-              startValue += 1;
-              valueDisplay.textContent = startValue.toString().padStart(3, '0');
-              if (startValue === endValue) {
-                clearInterval(counter);
-              }
-            }, duration);
+          const changeSlide = () => {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (currentSlide + 1) % slides.length;
+            slides[currentSlide].classList.add('active');
           };
         
-          let observer = new IntersectionObserver(
+          slides[currentSlide].classList.add('active');
+          setInterval(changeSlide, 4000); // Change slide every 3 seconds
+        });
+    </script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        let valueDisplays = document.querySelectorAll('.num');
+        let duration = 30000; // Duration of the animation in milliseconds
+        let steps = 2000; // Number of steps in the initial animation
+        let stepDuration = duration / steps;
+        let counters = Array.from(valueDisplays).map(display => {
+            return {
+                element: display,
+                startValue: 0,
+                endValue: parseInt(display.getAttribute('data-val')),
+                increment: parseInt(display.getAttribute('data-val')) / steps
+            };
+        });
+
+        let currentStep = 0;
+
+        function updateCounters() {
+            currentStep++;
+            counters.forEach(counter => {
+                let newValue = Math.min(counter.endValue, Math.round(counter.increment * currentStep));
+                counter.element.textContent = newValue.toString().padStart(3, '0');
+            });
+
+            if (currentStep < steps) {
+                requestAnimationFrame(updateCounters);
+            } else {
+                counters.forEach(counter => {
+                    counter.element.textContent = counter.endValue.toString().padStart(3, '0');
+                });
+                startContinuousGrowth();
+            }
+        }
+
+        function startContinuousGrowth() {
+            let growingCounters = document.querySelectorAll('.num.growing');
+            growingCounters.forEach(counter => {
+                setInterval(() => {
+                    let currentValue = parseInt(counter.textContent);
+                    counter.textContent = (currentValue + 1).toString().padStart(1, '0');
+                }, 4000); // Adjust the interval as needed
+            });
+        }
+
+        let observer = new IntersectionObserver(
             (entries, observer) => {
-              entries.forEach((entry) => {
-                if (entry.isIntersecting) {
-                  startCounting(entry.target);
-                  observer.unobserve(entry.target);
-                }
-              });
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        updateCounters();
+                        observer.unobserve(entry.target);
+                    }
+                });
             },
             { threshold: 0.7 } // Configure this according to your needs
-          );
-        
-          valueDisplays.forEach((valueDisplay) => {
+        );
+
+        valueDisplays.forEach((valueDisplay) => {
             observer.observe(valueDisplay);
-          });
         });
-    </script>
-    
-    <script>
-        document.addEventListener('DOMContentLoaded', (event) => {
-            let valueDisplays = document.querySelectorAll('.num');
-            let duration = 30000; // Duration of the animation in milliseconds
-            let steps = 2000; // Number of steps in the initial animation
-            let stepDuration = duration / steps;
-            let counters = Array.from(valueDisplays).map(display => {
-                return {
-                    element: display,
-                    startValue: 0,
-                    endValue: parseInt(display.getAttribute('data-val')),
-                    increment: parseInt(display.getAttribute('data-val')) / steps
-                };
-            });
-    
-            let currentStep = 0;
-    
-            function updateCounters() {
-                currentStep++;
-                counters.forEach(counter => {
-                    let newValue = Math.min(counter.endValue, Math.round(counter.increment * currentStep));
-                    counter.element.textContent = newValue.toString().padStart(3, '0');
-                });
-    
-                if (currentStep < steps) {
-                    requestAnimationFrame(updateCounters);
-                } else {
-                    counters.forEach(counter => {
-                        counter.element.textContent = counter.endValue.toString().padStart(3, '0');
-                    });
-                    startContinuousGrowth();
-                }
-            }
-    
-            function startContinuousGrowth() {
-                let growingCounters = document.querySelectorAll('.num.growing');
-                growingCounters.forEach(counter => {
-                    setInterval(() => {
-                        let currentValue = parseInt(counter.textContent);
-                        counter.textContent = (currentValue + 1).toString().padStart(1, '0');
-                    }, 4000); // Adjust the interval as needed
-                });
-            }
-    
-            let observer = new IntersectionObserver(
-                (entries, observer) => {
-                    entries.forEach((entry) => {
-                        if (entry.isIntersecting) {
-                            updateCounters();
-                            observer.unobserve(entry.target);
-                        }
-                    });
-                },
-                { threshold: 0.7 } // Configure this according to your needs
-            );
-    
-            valueDisplays.forEach((valueDisplay) => {
-                observer.observe(valueDisplay);
-            });
-        });
-    </script>
+    });
+</script>
+</body>
 
 </body>
 </html>
