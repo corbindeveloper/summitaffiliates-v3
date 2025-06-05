@@ -239,12 +239,16 @@ footer {
     flex-wrap: wrap;
 }
 
+.footer-logobox > a {
+        width: 10%;
+    }
+
 .footer-logobox > a >  img {
     background-color: rgba(255,255,255,0.25);
-    width: 90%;
+    width: 114px;
     height: 60px;
     border-radius: 6px;
-    padding: 4px;
+    padding: 3px;
 }
 
 .footer-socialbox {
@@ -279,6 +283,8 @@ footer {
         justify-content: center;
     }
 
+    
+
     .footer-list {
         width: 35%;
         min-width: 200px;
@@ -295,12 +301,34 @@ footer {
         display: flex;
         flex-direction: column;
     }
+
 }
 
 @media only screen and (max-width: 875px) {
     .top-navigation {
         flex-direction: column;
     }
+
+    .footer-boxes {
+        padding: 0 10% 4% 10%;
+    }
+
+    .footer-logobox{
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 3px;
+    }
+
+    .footer-logobox > a {
+        width: 40%;
+    }
+
+
+    .footer-logobox > a >  img {
+        background-color: rgba(255,255,255,0.25);
+        width: 100%;
+}
 }
 
 
@@ -313,4 +341,5 @@ footer {
     .mobile-contact-top {
         display: flex;
     };
+
 }
