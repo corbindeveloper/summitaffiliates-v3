@@ -1028,14 +1028,14 @@
       valueDisplays.forEach((valueDisplay) => {
         observer.observe(valueDisplay);
       });
-    }); 
+    });  
 
      //Filtering for Blogs Javascript code
-    document.addEventListener('DOMContentLoaded', function() {
-    const filterButtons = document.querySelectorAll('.filter-button');
-    const blogCards = document.querySelectorAll('.blog-card-container');
+     document.addEventListener('DOMContentLoaded', function() {
+     const filterButtons = document.querySelectorAll('.filter-button');
+     const blogCards = document.querySelectorAll('.blog-card-container');
 
-    filterButtons.forEach(button => {
+     filterButtons.forEach(button => {
         button.addEventListener('click', function() {
             filterButtons.forEach(btn => btn.classList.remove('active'));
             this.classList.add('active');
