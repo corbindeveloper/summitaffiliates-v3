@@ -183,7 +183,7 @@
         </nav>
     </header>
 
-    <main style="border-top: 2px solid rgba(0,0,0,0.1);">
+    <main style="border-top: 2px solid rgba(0,0,0,0.1);"> 
         <!-- Single Product Content Container -->
         <div class="blog-center-content blog-bg" id="mobile-blog-container">
 
@@ -191,11 +191,37 @@
                 <h1 class="blog-center-title">Blog Center</h1>
                 
             </div>
+
+            <div class="blog-filters">
+                <button class="filter-button active" data-tag="all">All Blogs</button>
+                <button class="filter-button" data-tag="Copiers & Printers">Copiers & Printers</button>
+                <button class="filter-button" data-tag="Mail Solutions">Mail Solutions</button>
+                <button class="filter-button" data-tag="Business Solutions">Business Solutions</button>
+            </div>
+
             <!-- Blog Grid -->
             <div class="blog-grid">
 
+                 <!--  Blog Card -->
+                <div class="blog-card-container" data-tags="Business Solutions">
+                    <a href="./mailing/idp-blog.html" class="blog-card-link hvr-grow"  style="color: #000;">
+                        <div class="blog-card" style="height: 340px;">
+                            <div class="blog-card-img" style="background: url(../../assets/graphics/stock/business-automation.webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover; background-position:center;">
+                            </div>
+    
+                            <div class="blog-card-text"> 
+                                <p class="blog-card-title">Why Intelligent Document Processing is Important</p>
+                                <p class="blog-summary">Read about how IDP overcomes various business challenges</p>
+                            </div> 
+                            <div class="blog-card-tag-container">
+                                <p class="blog-card-tag">Business Solutions</p> 
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
                 <!--  Blog Card -->
-                <div class="blog-card-container">
+                <div class="blog-card-container" data-tags="Mail Solutions">
                     <a href="./mailing/smart-blog.html" class="blog-card-link hvr-grow"  style="color: #000;">
                         <div class="blog-card" style="height: 340px;">
                             <div class="blog-card-img" style="background: url(../../assets/graphics/stock/smartblogblog-02.webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover;">
@@ -213,7 +239,7 @@
                 </div>
 
                 <!--  Blog Card -->
-                <div class="blog-card-container">
+                <div class="blog-card-container" data-tags="Mail Solutions">
                     <a href="./mailing/ix9-blog.html" class="blog-card-link hvr-grow"  style="color: #000;">
                         <div class="blog-card" style="height: 340px;">
                             <div class="blog-card-img" style="background: url(../../assets/graphics/mail-machines/ix9blog01.webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover;">
@@ -231,7 +257,7 @@
                 </div>
 
                 <!--  Blog Card -->
-                <div class="blog-card-container">
+                <div class="blog-card-container" data-tags="Copiers & Printers">
                     <a href="./printing/uniflow-control.html" class="blog-card-link hvr-grow"  style="color: #000;">
                         <div class="blog-card" style="height: 340px;">
                             <div class="blog-card-img" style="background: url(../../assets/graphics/stock/uniflow.webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover;">
@@ -249,7 +275,7 @@
                 </div>
 
                 <!--  Blog Card -->
-                <div class="blog-card-container">
+                <div class="blog-card-container" data-tags="Copiers & Printers">
                     <a href="./printing/modern-scanners.html" class="blog-card-link hvr-grow"  style="color: #000;">
                         <div class="blog-card" style="height: 340px;">
                             <div class="blog-card-img" style="background: url(../../assets/graphics/scanners/canon-scanner-inuse.webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover; background-position:center;">
@@ -267,7 +293,7 @@
                 </div>
 
                  <!--  Blog Card -->
-                <div class="blog-card-container">
+                <div class="blog-card-container" data-tags="Copiers & Printers">
                     <a href="./printing/WF-C21000-blog.html" class="blog-card-link hvr-grow"  style="color: #000;">
                         <div class="blog-card" style="height: 340px;">
                             <div class="blog-card-img" style="background: url(../../assets/graphics/mfp/epsonwfc21000blog.webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover;">
@@ -285,7 +311,7 @@
                 </div>
 
                 <!--  Blog Card -->
-                <div class="blog-card-container">
+                <div class="blog-card-container" data-tags="Copiers & Printers">
                     <a href="./printing/healthcare-printing.html" class="blog-card-link hvr-grow"  style="color: #000;">
                         <div class="blog-card" style="height: 340px;">
                             <div class="blog-card-img" style="background: url(../../assets/graphics/stock/healthcarepapercutblog-01.webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover;">
@@ -303,7 +329,7 @@
                 </div>
 
                 <!--  Blog Card -->
-                <div class="blog-card-container">
+                <div class="blog-card-container" data-tags="Business Solutions">
                     <a href="./mailing/document-management-remote.html" class="blog-card-link hvr-grow"  style="color: #000;">
                         <div class="blog-card" style="height: 340px;">
                             <div class="blog-card-img" style="background: url(../../assets/graphics/stock/docuwareblog.webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover;">
@@ -321,7 +347,7 @@
                 </div>
 
                  <!--  Blog Card -->
-                 <div class="blog-card-container">
+                 <div class="blog-card-container" data-tags="Copiers & Printers">
                     <a href="./printing/papercut-education.html" class="blog-card-link hvr-grow"  style="color: #000;">
                         <div class="blog-card" style="height: 340px;">
                             <div class="blog-card-img" style="background: url(../../assets/graphics/stock/papercut-edu-blog-00.webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover;">
@@ -339,7 +365,7 @@
                 </div>
 
                 <!--  Blog Card -->
-                <div class="blog-card-container">
+                <div class="blog-card-container" data-tags="Copiers & Printers">
                     <a href="./printing/MFC-L9570CDW.html" class="blog-card-link hvr-grow"  style="color: #000;">
                         <div class="blog-card" style="height: 340px;">
                             <div class="blog-card-img" style="background: url(../../assets/graphics/mfp/brotherMFCL9570CDWblog\ \(1\).webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover;">
@@ -357,7 +383,7 @@
                 </div>
 
                  <!--  Blog Card -->
-                 <div class="blog-card-container">
+                 <div class="blog-card-container" data-tags="Mail Solutions">
                     <a href="./mailing/four-ways-outgoing-mail.html" class="blog-card-link hvr-grow"  style="color: #000;">
                         <div class="blog-card" style="height: 340px;">
                             <div class="blog-card-img" style="background: url(../../assets/graphics/stock/outgoing-mail-blog.webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover;">
@@ -375,7 +401,7 @@
                 </div>
 
                  <!--  Blog Card -->
-                 <div class="blog-card-container">
+                 <div class="blog-card-container" data-tags="Business Solutions">
                     <a href="./mailing/invoice-storage.html" class="blog-card-link hvr-grow"  style="color: #000;">
                         <div class="blog-card" style="height: 340px;">
                             <div class="blog-card-img" style="background: url(../../assets/graphics/stock/invoice-blog.webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover;">
@@ -394,7 +420,7 @@
 
                
                  <!--  Blog Card -->
-                 <div class="blog-card-container">
+                 <div class="blog-card-container" data-tags="Copiers & Printers">
                     <a href="./printing/signage.html" class="blog-card-link hvr-grow"  style="color: #000;">
                         <div class="blog-card" style="height: 340px;">
                             <div class="blog-card-img" style="background: url(../../assets/graphics/stock/signage-wide-format-blog.webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover;">
@@ -413,7 +439,7 @@
 
 
                  <!--  Blog Card -->
-                 <div class="blog-card-container">
+                 <div class="blog-card-container" data-tags="Mail Solutions">
                     <a href="./mailing/mail-tactic.html" class="blog-card-link hvr-grow"  style="color: #000;">
                         <div class="blog-card" style="height: 340px;">
                             <div class="blog-card-img" style="background: url(../../assets/graphics/stock/dep1.webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover;">
@@ -432,7 +458,7 @@
 
 
                 <!--  Blog Card -->
-                <div class="blog-card-container">
+                <div class="blog-card-container" data-tags="Mail Solutions">
                     <a href="./mailing/ix7-blog.html" class="blog-card-link hvr-grow"  style="color: #000;">
                         <div class="blog-card" style="height: 340px;">
                             <div class="blog-card-img" style="background: url(../../assets/graphics/mail-machines/ix7blog-02.webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover;">
@@ -451,7 +477,7 @@
 
 
                   <!--  Blog Card -->
-                  <div class="blog-card-container">
+                  <div class="blog-card-container" data-tags="Business Solutions">
                     <a href="./mailing/electronic-signatures-impact.html" class="blog-card-link hvr-grow"  style="color: #000;">
                         <div class="blog-card" style="height: 340px;">
                             <div class="blog-card-img" style="background: url(../../assets/graphics/stock/electronic-signature-blog.webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover;">
@@ -470,7 +496,7 @@
 
 
                  <!--  Blog Card -->
-                 <div class="blog-card-container">
+                 <div class="blog-card-container" data-tags="Copiers & Printers">
                     <a href="./printing/imageprograf-pro-6600.html" class="blog-card-link hvr-grow"  style="color: #000;">
                         <div class="blog-card" style="height: 340px;">
                             <div class="blog-card-img" style="background: url(../../assets/graphics/wideformat/canonimageprograflinkedinblog-02\ \(1\).webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover;">
@@ -488,7 +514,7 @@
                 </div>
 
                 <!--  Blog Card -->
-                <div class="blog-card-container">
+                <div class="blog-card-container" data-tags="Copiers & Printers">
                     <a href="./printing/image-force-c7165.html" class="blog-card-link hvr-grow"  style="color: #000;">
                         <div class="blog-card" style="height: 340px;">
                             <div class="blog-card-img" style="background: url(../../assets/MFP/mfpblog-03.webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover;">
@@ -507,7 +533,7 @@
 
 
                 <!--  Blog Card -->
-                <div class="blog-card-container">
+                <div class="blog-card-container" data-tags="Mail Solutions">
                     <a href="./mailing/ix3-blog.html" class="blog-card-link hvr-grow"  style="color: #000;">
                         <div class="blog-card" style="height: 340px;">
                             <div class="blog-card-img" style="background: url(../../assets/graphics/mail-machines/ix-3-b1.webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover;">
@@ -526,7 +552,7 @@
 
 
                 <!--  Blog Card -->
-                <div class="blog-card-container">
+                <div class="blog-card-container" data-tags="Copiers & Printers">
                     <a href="./printing/new-printer-needed.html" class="blog-card-link hvr-grow"  style="color: #000;">
                         <div class="blog-card" style="height: 340px;">
                             <div class="blog-card-img" style="background: url(../../assets/graphics/stock/Printer-replacement-blog.webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover;">
@@ -546,7 +572,7 @@
 
 
                 <!--  Blog Card -->
-                <div class="blog-card-container">
+                <div class="blog-card-container" data-tags="Mail Solutions">
                     <a href="./mailing/why-mail-lockers.html" class="blog-card-link hvr-grow"  style="color: #000;">
                         <div class="blog-card" style="height: 340px;">
                             <div class="blog-card-img" style="background: url(../../assets/graphics/stock/mail-parcel-blog-image.webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover;">
@@ -565,7 +591,7 @@
                 </div>
 
                    <!--  Blog Card -->
-                   <div class="blog-card-container">
+                   <div class="blog-card-container" data-tags="Mail Solutions">
                     <a href="./mailing/folder-inserter-higher.html" class="blog-card-link hvr-grow"  style="color: #000;">
                         <div class="blog-card" style="height: 340px;">
                             <div class="blog-card-img" style="background: url(../../assets/graphics/stock/folder-inserter-blog-image.webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover;">
@@ -584,7 +610,7 @@
                 </div>
 
                <!-- Blog Card -->
-                <div class="blog-card-container">
+                <div class="blog-card-container" data-tags="Copiers & Printers">
                 <a href="./printing/label-printer-onsite.html" class="blog-card-link hvr-grow"  style="color: #000;">
                     <div class="blog-card" style="height: 340px;">
                         <div class="blog-card-img" style="background: url(../../assets/graphics/stock/label-receipt-blog.webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover;">
@@ -603,7 +629,7 @@
             </div>
 
                   <!--  Blog Card -->
-               <div class="blog-card-container">
+               <div class="blog-card-container" data-tags="Copiers & Printers">
                 <a href="./printing/new-epson-color-printer-blog.html" class="blog-card-link hvr-grow"  style="color: #000;">
                     <div class="blog-card" style="height: 340px;">
                         <div class="blog-card-img" style="background: url(../../assets/graphics/mfp/new\ epson\ printer\ \(1\).webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover;">
@@ -623,7 +649,7 @@
             </div>
 
                    <!--  Blog Card -->
-               <div class="blog-card-container">
+               <div class="blog-card-container" data-tags="Business Solutions">
                 <a href="./mailing/digital-form-blog.html" class="blog-card-link hvr-grow"  style="color: #000;">
                     <div class="blog-card" style="height: 340px;">
                         <div class="blog-card-img" style="background: url(../../assets/graphics/stock/digitalformblog.webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover;">
@@ -642,7 +668,7 @@
             </div>
 
                   <!--  Blog Card -->
-               <div class="blog-card-container">
+               <div class="blog-card-container" data-tags="Copiers & Printers">
                 <a href="./printing/copiers-mfp.html" class="blog-card-link hvr-grow"  style="color: #000;">
                     <div class="blog-card" style="height: 340px;">
                         <div class="blog-card-img" style="background: url(../../assets/graphics/stock/copier-mfp-img.webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover;">
@@ -661,7 +687,7 @@
             </div>
 
                   <!--  Blog Card -->
-               <div class="blog-card-container">
+               <div class="blog-card-container" data-tags="Copiers & Printers">
                 <a href="./printing/why-purchase-wide-format.html" class="blog-card-link hvr-grow"  style="color: #000;">
                     <div class="blog-card" style="height: 340px;">
                         <div class="blog-card-img" style="background: url(../../assets/graphics/stock/wide-format-blog.webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover;">
@@ -681,7 +707,7 @@
 
 
                   <!--  Blog Card -->
-               <div class="blog-card-container">
+               <div class="blog-card-container" data-tags="Copiers & Printers">
                 <a href="./printing/managed-print-lawfirms.html" class="blog-card-link hvr-grow"  style="color: #000;">
                     <div class="blog-card" style="height: 340px;">
                         <div class="blog-card-img" style="background: url(../../assets/graphics/stock/managed-print-law.webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover;">
@@ -700,7 +726,7 @@
             </div>
 
                  <!--  Blog Card -->
-               <div class="blog-card-container">
+               <div class="blog-card-container" data-tags="Copiers & Printers">
                 <a href="./printing/benefit-leasing-printer.html" class="blog-card-link hvr-grow"  style="color: #000;">
                     <div class="blog-card" style="height: 340px;">
                         <div class="blog-card-img" style="background: url(../../assets/graphics/stock/printer-leasing.webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover;">
@@ -719,7 +745,7 @@
             </div>
 
                <!--  Blog Card -->
-               <div class="blog-card-container">
+               <div class="blog-card-container" data-tags="Copiers & Printers">
                 <a href="./printing/managed-print-education.html" class="blog-card-link hvr-grow"  style="color: #000;">
                     <div class="blog-card" style="height: 340px;">
                         <div class="blog-card-img" style="background: url(../../assets/graphics/stock/managedprinteductaion.webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover;">
@@ -738,7 +764,7 @@
             </div>
 
                  <!--  Blog Card -->
-                 <div class="blog-card-container">
+                 <div class="blog-card-container" data-tags="Business Solutions">
                     <a href="./mailing/document-management-security.html" class="blog-card-link hvr-grow"  style="color: #000;">
                         <div class="blog-card" style="height: 340px;">
                             <div class="blog-card-img" style="background: url(../../assets/graphics/stock/document-security.webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover;">
@@ -757,7 +783,7 @@
                 </div>
 
                 <!--  Blog Card -->
-                <div class="blog-card-container">
+                <div class="blog-card-container" data-tags="Copiers & Printers">
                     <a href="./printing/copier-cybersecurity.html" class="blog-card-link hvr-grow"  style="color: #000;">
                         <div class="blog-card" style="height: 340px;">
                             <div class="blog-card-img" style="background: url(../../assets/graphics/stock/printer-security.webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover;">
@@ -777,7 +803,7 @@
 
 
                 <!--  Blog Card -->
-                <div class="blog-card-container">
+                <div class="blog-card-container" data-tags="Copiers & Printers">
                     <a href="./printing/printer-collate.html" class="blog-card-link hvr-grow"  style="color: #000;">
                         <div class="blog-card" style="height: 340px;">
                             <div class="blog-card-img" style="background: url(../../assets/graphics/stock/collate.webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover;">
@@ -796,7 +822,7 @@
                 </div>
 
                  <!--  Blog Card -->
-                 <div class="blog-card-container">
+                 <div class="blog-card-container" data-tags="Copiers & Printers">
                     <a href="./printing/office-copiers-thrive.html" class="blog-card-link hvr-grow"  style="color: #000;">
                         <div class="blog-card" style="height: 340px;">
                             <div class="blog-card-img" style="background: url(../assets/graphics/stock/pro-stock-1.webp); min-height:170px; border-radius: 8px; margin:2.5%; background-size:cover;">
@@ -815,7 +841,7 @@
                 </div>
 
                  <!--  Blog Card -->
-                 <div class="blog-card-container">
+                 <div class="blog-card-container" data-tags="Mail Solutions">
                     <a href="./mailing/folder-insert-change-work.html" class="blog-card-link hvr-grow" style="color: #000;">
                         <div class="blog-card" style="height: 340px;">
                             <div class="blog-card-img five-ways-folder-img">
@@ -835,7 +861,7 @@
 
 
                 <!--  Blog Card -->
-                <div class="blog-card-container">
+                <div class="blog-card-container" data-tags="Mail Solutions">
                     <a href="./mailing/document-process-back.html" class="blog-card-link hvr-grow"  style="color: #000;">
                         <div class="blog-card" style="height: 340px;">
                             <div class="blog-card-img impress-auto-img">
@@ -1003,6 +1029,31 @@
         observer.observe(valueDisplay);
       });
     });
+
+     //Filtering for Blogs Javascript code
+    document.addEventListener('DOMContentLoaded', function() {
+    const filterButtons = document.querySelectorAll('.filter-button');
+    const blogCards = document.querySelectorAll('.blog-card-container');
+
+    filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            this.classList.add('active');
+            const selectedTag = this.dataset.tag;
+            blogCards.forEach(card => {
+
+                // Get the tags for the current cards
+                const cardTags = card.dataset.tags; 
+
+                if (selectedTag === 'all' || cardTags.includes(selectedTag)) {
+                    card.style.display = 'block'; 
+                } else {
+                    card.style.display = 'none'; 
+                }
+            });
+        });
+    });
+});
 </script>
 </body>
 
