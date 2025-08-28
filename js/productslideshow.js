@@ -19,3 +19,20 @@ function showDivs(n) {
 // This will ensure your slideshow starts with the first product when the page loads
 showDivs(slideIndex);
 
+function plusResources(n) {
+    showResources(slideIndex +=n);
+}
+
+function showResources(n) {
+    var i;
+    var x = document.getElementsByClassName("resources-card");
+    
+    if (n > x.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = x.length}
+    
+    for (i = 0; i < x.length; i++) {
+       x[i].style.transform = "translateX(" + -100 * (slideIndex-1) + "%)";
+    }
+}
+
+showResources(slideIndex)

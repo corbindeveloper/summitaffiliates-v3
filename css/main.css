@@ -454,17 +454,10 @@ p {
 
 /* Resource Cards */
 .resources-section {
-    background: #bf2026;
-    padding: 5% 0 5% 12%;
+    background: #bf2026;    
     overflow-x: hidden;
 }
 
-.resources-card {
-  display:flex;
-  flex-direction: column;
-  max-width: 30%;
-  max-height: 600px;
-}
 
 .resources-card-image {
     border-radius: 6px;
@@ -472,7 +465,7 @@ p {
     padding: 0;
     
     width: 100%;
-    min-width: 300px;
+    width: 700px;
     min-height: 440px;
     display: flex;
     align-items: center;
@@ -490,8 +483,8 @@ p {
 
 .resources-card-image > img {
     border-radius: 6px;
-    min-width: 50%;
-    min-height: 50%;
+    min-width: 100%;
+    min-height: 490px;
 }
 
 .resources-card-title {
@@ -515,6 +508,24 @@ p {
     background-color: rgba(255,255,255,0.9);
     color: #bf2026;
     font-weight: 600;
+}
+
+/* Slideshow buttons */
+.resources-slideshow-btn {
+    background-color: rgba(0,0,0,0.1);
+    border: none;
+    color: #efefef;
+    font-weight: 900;
+    padding: 0.5% 1% 0.5% 1.1%;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.resources-slideshow-btn:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #bf2026;
 }
 
 /* Sales Pitch */
@@ -751,11 +762,18 @@ p {
 
     .resources-card {
         max-width:100%;
+        
     }
 
     .resources-card-image {
-       max-width: 40%;
-       min-height: 200px;
+       max-width: 90%;
+       min-height: 100px;
+    }
+
+    .resources-card-image > img {
+        border-radius: 6px;
+        min-width: 100%;
+        min-height: 100px;
     }
 
     .resources-card-title {
@@ -769,6 +787,14 @@ p {
 
     .resources-btn {
         text-align:center;
+    }
+
+    .resources-slideshow-btn {
+        padding: 6px 15px;
+    }
+
+    .resources-slideshow-btn-container {
+        display: none;
     }
 }
 
