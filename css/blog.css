@@ -203,10 +203,18 @@
     margin: 0 5%;
 }
 
+.blog-author {
+    min-width: 80%;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.9);
+    padding-bottom: 1px;
+    font-weight: bold;
+}
+
 .blog-date {
     min-width: 80%;
     font-size: 0.9rem;
-    color: rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.9);
     padding-bottom: 5px;
 }
 
@@ -338,6 +346,14 @@
 
     .action-btn {
         margin: 4% 0;
+    }
+
+    .blog-author {
+        text-align: center;
+    }
+
+    .blog-date {
+        text-align: center;
     }
 
     .blog-title {
