@@ -11,7 +11,7 @@
 ## Core Services
 
 ### Managed Print Services (MPS)
-- Comprehensive management of office printer fleets.
+- Comprehensive management of office printer fleets. 
 - Optimization of print workflows to reduce costs and environmental impact.
 - Support for equipment ranging from small personal copiers to high-volume production machines.
 
