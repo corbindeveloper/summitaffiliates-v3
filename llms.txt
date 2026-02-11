@@ -30,6 +30,8 @@
 ### Managed IT Services
 - Robust technology management, security, and ongoing infrastructure support.
 - Hardware support
+- New Office Setup
+- Phone Services
 
 ## Product Categories
 
@@ -50,7 +52,7 @@
 - **Summit Business Systems & Summit Mailing:** Oklahoma City (HQ), Springfield (MO).
 - **JMP Office Technology:** Clovis and Sacramento (CA).
 - **Midwest Office Technology:** Serving States of Iowa and Kansas.
-- **CCI Office Technologies:** Serving Ventura (CA).
+- **CCI Office Technology:** Serving Ventura (CA).
 
 ## Key Resources
 - **Free Assessments:** Businesses can schedule 1-hour assessments for printers, document workflows and mailroom efficiency.
