@@ -25,7 +25,7 @@
 - **Document Management:** Archive and retrieval systems, cloud DMS, and version control.
 - **Workflow Automation:** Business process automation (BPA) and digital forms.   
 - **Customer Journey Mapping:** Enhancing engagement through touchpoint analysis.
-- **Scanning:** Modern high-speed scanners with text orientation and skew detection.
+- **Scanning:** Modern high-speed scanners with text orientation and skew detection. 
 
 ### Managed IT Services
 - Robust technology management, security, and ongoing infrastructure support.
