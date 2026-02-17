@@ -1,3 +1,18 @@
 User-agent: *
-Disallow:
+Disallow: /wp-admin/  # Keep your backend private
+Allow: /              # Let everyone else in
+
+# Explicitly invite the AI agents that drive traffic
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Claude-bot
+Allow: /
+
 Sitemap: https://www.summitokc.com/sitemap.xml
