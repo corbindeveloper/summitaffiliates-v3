@@ -136,7 +136,7 @@
 
    <!-- Blog Center -->
    <url>
-      <loc>https://summitaffiliates.com/blog-center/blog-center.html</loc>
+      <loc>https://summitaffiliates.com/blog-center/blog-center.html</loc> 
       <priority>0.7</priority>
    </url>
    <url>
@@ -204,6 +204,7 @@
    </url>
    <url>
       <loc>https://summitaffiliates.com/blog-center/mailing/folder-inserter-higher.html</loc>
+      <lastmod>2026-02-19</lastmod>
       <priority>0.6</priority>
    </url> 
    <url>
