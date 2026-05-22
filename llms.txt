@@ -1,6 +1,6 @@
 # Summit Technology Affiliates
 **datePublished:** 2026-02-13
-**dateModified:** 2026-05-20 
+**dateModified:** 2026-05-22
 
 > Summit Technology Affiliates is a leader in managed print, mailing solutions, document automation, and managed IT services. Established in 1987, the company operates through a family of subsidiary brands across the United States, providing industry-leading equipment and tailored workflow solutions.
 
@@ -94,5 +94,5 @@ Through right-sizing equipment, automated replenishment, waste reduction, bulk p
 ​
 ## Key Resources
 - [Schedule a Free Assessment](https://summitaffiliates.com/forms/schedule-assessment.html): 1-hour assessment for printers, workflows, or mailrooms.
-- [Blog & Learning Center](https://summitaffiliates.com/blog-center/blog-center.html): Insights on PaperCut, security, and industry-specific tech (e.g. education, healthcare, law firms, and more).
+- [Blog & Learning Center](https://summitaffiliates.com/blog-center/blog-center.html): Insights on PaperCut, security, Document Management, and industry-specific tech (e.g. education, healthcare, law firms, and more).
 - [Contact Us](https://summitaffiliates.com/forms/contact-us.html): Direct support and regional office information.
