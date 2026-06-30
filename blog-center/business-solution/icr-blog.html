@@ -18,6 +18,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
+    <style>
+        @media (max-width: 768px) {
+            table {
+                display: none;
+            }
+        }
+    </style>
 
 <script type="application/ld+json">
   { 
@@ -237,7 +244,7 @@
 
     <main style="border-top: 2px solid rgba(0,0,0,0.1);">
             <!-- Single Product Content Container -->
-    <div class="single-content-container blog-bg" id="mobile-blog-container">
+    <div class="single-content-container blog-bg" id="mobile-blog-container" style="overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; max-width: 100%;">
         <div class="blog-action-container">
             <p class="action-btn hvr-grow"><a href="../../product-pages/solutions/document-workflow-solutions.html">View Doc Workflow</a></p>
             <p class="action-btn hvr-grow"><a href="../blog-center.html">View Blog</a></p>
@@ -245,7 +252,7 @@
         <br><br>
 
         <!-- Blog Content -->  
-        <div class="blog-content">
+        <div class="blog-content" style="overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; max-width: 100%;">
             
             <p class="blog-author">Author: Melad Sameri</p>  
             <p class="blog-date">Posted on: 5/20/2026</p>
@@ -261,7 +268,7 @@
             <h1 class="blog-title">The Next Step for Document Processing:<br> Intelligent Character Recognition (ICR)</h1>         
 
             <!-- Blog Text -->
-            <div class="blog-content-text"> 
+            <div class="blog-content-text" style="overflow-wrap: break-word; word-wrap: break-word; word-break: break-word;"> 
                 <p class="blog-opening">
                 A handwritten form comes into your office. Someone has to read it, type the information into a system, check for mistakes, and then file the document in the right place. Now imagine that same manual process repeated across dozens, hundreds, or even thousands of forms, invoices, applications, notes, and business records. 
                 </p>
@@ -282,7 +289,7 @@
                 <br>
         
                  <!-- List Item One -->
-                 <div class="blog-text-list">
+                 <div class="blog-text-list" style="overflow-wrap: break-word; word-wrap: break-word; word-break: break-word;">
                     <p class="blog-list-title" style="font-size: 30px;">What is Intelligent Character Recognition?</p><br>
                     
                     <p class="blog-opening">Intelligent Character Recognition, or ICR, is a form of recognition technology that helps convert handwritten text into digital data. Instead of requiring employees to manually type information from handwritten forms or notes, ICR captures that information so it can be searched, stored, routed, and used in business systems.</p>
@@ -299,6 +306,7 @@
                     <p class="blog-opening">However, handwritten information is much more difficult to process because every person writes differently. Letter shapes, spacing, pen pressure, ink color, and scan quality all affect how easy the information is to read. This is where ICR goes a step further.</p>
                     <p class="blog-opening">ICR is designed to better recognize variations in handwriting. It supports document processing by identifying handwritten characters, understanding patterns, and improving over time as the system receives feedback.</p>
                 
+                    <div style="overflow-x: auto;">
                     <table>
                         <thead>
                             <tr>
@@ -329,6 +337,7 @@
                           
                         </tbody>
                     </table>
+                    </div>
                 </div> 
 
 
@@ -382,7 +391,8 @@
                 <div class="blog-text-list">   
                     <p class="blog-list-title" style="font-size: 30px;">Key Benefits of ICR for Businesses</p><br>
                     <p class="blog-opening">Intelligent Character Recognition helps organizations make handwritten information easier to capture, search, and use. When combined with a Document Management System like DocuWare, it supports a highly efficient and reliable document processing environment.</p>
-                    <table>
+                    <div style="overflow-x: auto;">
+                    <table class="benefits-table">
                         <thead>
                             <tr>
                                 <th style="border: 1px solid black; padding: 8px; font-weight: bold; text-align: left;">Benefit</th>
@@ -416,6 +426,7 @@
                             </tr>
                         </tbody>
                     </table>
+                    </div>
                 </div>
 
  
