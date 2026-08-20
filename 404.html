@@ -286,10 +286,39 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
 
         <div class="credits">
-            <a href="#" class="cky-banner-element">Cookie Settings</a> 
             <p>2023 &copy; Summit Technology Affiliates, LLC | All Rights Reserved.</p>
         </div>
     </footer>
+
+    <a href="#" id="reset-cookie-choice">Change cookie choice</a>
+
+<script>
+  (function () {
+    const resetLink = document.getElementById('reset-cookie-choice');
+
+    if (!resetLink) return;
+
+    resetLink.addEventListener('click', function (event) {
+      event.preventDefault();
+
+      const expired = 'Thu, 01 Jan 1970 00:00:00 GMT';
+      const cookieName = 'cookieyes-consent';
+
+      /* Clear the CookieYes choice for the current host. */
+      document.cookie = cookieName + '=; expires=' + expired + '; path=/';
+
+      /* Also clear the sitewide version used on the production domain. */
+      if (location.hostname.includes('.')) {
+        document.cookie = cookieName + '=; expires=' + expired +
+          '; path=/; domain=.' + location.hostname;
+      }
+
+      /* Reload with no stored CookieYes choice. */
+      window.location.reload();
+    });
+  })();
+</script>
+
 
     <!-- SCRIPTS -->
     <!-- SCRIPTS -->
