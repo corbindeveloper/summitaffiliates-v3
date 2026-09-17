@@ -297,9 +297,9 @@
         .detail { min-width: 0; }
         .photo-content { padding: 66px 0; }
         .services, .explore { padding: 58px 0; }
-        .vendor-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+        .vendor-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 12px; }
         .vendor-box { min-height: 100px; padding: 12px 16px; }
-        .vendor-box img { max-height: 60px; }
+        .vendor-box img { max-height: 60px; max-width: 100%; width: auto; object-fit: contain; }
         .vendor-box:nth-child(n+7) { display: none; }
         .vendor-grid.show-all .vendor-box:nth-child(n+7) { display: flex; }
         .show-more-vendors {
