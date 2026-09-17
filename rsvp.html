@@ -221,6 +221,9 @@
         width: auto;
         object-fit: contain;
       }
+      .show-more-vendors {
+        display: none;
+      }
       .photo-strip { position: relative; min-height: 600px; background: url('/assets/rsvp/oktoberfest_carousel_border_background.jpg') center/cover; overflow: hidden; }
       .carousel-container { position: relative; width: 100%; max-width: 1400px; margin: 0 auto; height: 600px; }
       .carousel-slide { position: absolute; inset: 0; opacity: 0; transition: opacity 600ms ease-in-out; }
@@ -297,6 +300,25 @@
         .vendor-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
         .vendor-box { min-height: 100px; padding: 12px 16px; }
         .vendor-box img { max-height: 60px; }
+        .vendor-box:nth-child(n+7) { display: none; }
+        .vendor-grid.show-all .vendor-box:nth-child(n+7) { display: flex; }
+        .show-more-vendors {
+          display: block !important;
+          width: 100%;
+          text-align: center;
+          margin-top: 20px;
+          padding: 12px 24px;
+          background: var(--summit-red);
+          color: white;
+          border: none;
+          border-radius: 6px;
+          font-size: 0.9rem;
+          font-weight: 600;
+          cursor: pointer;
+          transition: background 300ms;
+        }
+        .show-more-vendors:hover { background: var(--summit-red-dark); }
+        .vendor-grid.show-all ~ .show-more-vendors { display: block !important; }
       }
       @media (max-width: 380px) {
         .vendor-grid { grid-template-columns: 1fr; }
@@ -319,7 +341,7 @@
               <div class="hosted-banner" style="background: #bf2026; padding: 16px 24px; margin-top: 24px; margin-bottom: 16px; border-radius: 8px; display: flex; align-items: center; justify-content: space-between; gap: 16px; max-width: fit-content;">
                 <div style="color: white; font-family: 'Archivo Black', Impact, sans-serif; font-size: clamp(1.2rem, 2vw, 1.8rem); letter-spacing: -0.03em; text-transform: uppercase; line-height: 1;">Open House Luncheons</div>
                 <div style="background: white; padding: 12px 20px; border-radius: 6px; display: flex; align-items: center; gap: 12px;">
-                  <span style="font-size: 0.85rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink);">Hosted by</span>
+                  <span style="font-size: 0.85rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink);">Featured Partner</span>
                   <img src="/assets/logos/canon.webp" alt="Canon" style="height: 28px; width: auto;" />
                 </div>
               </div>
@@ -341,7 +363,7 @@
               <div class="hosted-banner" style="background: #bf2026; padding: 16px 24px; margin-top: 24px; margin-bottom: 16px; border-radius: 8px; display: flex; align-items: center; justify-content: space-between; gap: 16px; max-width: fit-content;">
                 <div style="color: white; font-family: 'Archivo Black', Impact, sans-serif; font-size: clamp(1.2rem, 2vw, 1.8rem); letter-spacing: -0.03em; text-transform: uppercase; line-height: 1;">Happy Hour</div>
                 <div style="background: white; padding: 12px 20px; border-radius: 6px; display: flex; align-items: center; gap: 12px;">
-                  <span style="font-size: 0.85rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink);">Hosted by</span>
+                  <span style="font-size: 0.85rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink);">Featured Partner</span>
                   <img src="/assets/logos/toshiba.webp" alt="Toshiba" style="height: 28px; width: auto;" />
                 </div>
               </div>
@@ -395,6 +417,15 @@
               <img src="/assets/logos/toshiba.webp" alt="Toshiba logo" />
             </div>
             <div class="vendor-box">
+              <img src="/assets/logos/threatlocker.webp" alt="threatlocker logo" />
+            </div>
+             <div class="vendor-box">
+              <img src="/assets/logos/Microsoft-Solutions-Partner_Arctic-IT.webp" alt="Microsoft Partner logo" />
+            </div>
+             <div class="vendor-box">
+              <img src="/assets/logos/quadient.webp" alt="Quadient logo" />
+            </div>
+            <div class="vendor-box">
               <img src="/assets/logos/brother.webp" alt="Brother logo" />
             </div>
             <div class="vendor-box">
@@ -402,10 +433,6 @@
             </div>
             <div class="vendor-box">
               <img src="/assets/logos/lexmark.webp" alt="Lexmark logo" />
-            </div>
-
-             <div class="vendor-box">
-              <img src="/assets/logos/quadient.webp" alt="Quadient logo" />
             </div>
              <div class="vendor-box">
               <img src="/assets/logos/formax.webp" alt="Formax logo" />
@@ -426,17 +453,27 @@
               <img src="/assets/logos/datto.webp" alt="datto logo" />
             </div>
              <div class="vendor-box">
-              <img src="/assets/logos/sonicwall.jpg" alt="sonicwall logo" />
+              <img src="/assets/logos/sonicwall.webp" alt="sonicwall logo" />
             </div>
             <div class="vendor-box">
               <img src="/assets/logos/lenovo.webp" alt="lenovo logo" />
             </div>
              <div class="vendor-box">
-              <img src="/assets/logos/threatlocker.webp" alt="threatlocker logo" />
-            </div> 
-  
+              <img src="/assets/logos/Kip Logo Vector.svg" alt="KIP logo" />
+            </div>
+            <div class="vendor-box">
+              <img src="/assets/logos/Yealink_Logo.webp" alt="Yealink logo" />
+            </div>
+            <div class="vendor-box">
+              <img src="/assets/logos/viewsonic-logo.webp" alt="Viewsonic logo" />
+            </div>
+            <div class="vendor-box">
+              <img src="/assets/logos/Troy.webp" alt="Troy logo" />
+            </div>
+         
           </div>
-        </div> 
+          <button class="show-more-vendors">Show More Vendors</button>
+        </div>
       </section>
 
       <section class="photo-strip" aria-label="Event Gallery">
@@ -561,6 +598,23 @@
         });
 
         startAutoPlay();
+      })();
+
+      // Show More Vendors functionality
+      (function() {
+        const showMoreBtn = document.querySelector('.show-more-vendors');
+        const vendorGrid = document.querySelector('.vendor-grid');
+
+        if (showMoreBtn && vendorGrid) {
+          showMoreBtn.addEventListener('click', () => {
+            vendorGrid.classList.toggle('show-all');
+            if (vendorGrid.classList.contains('show-all')) {
+              showMoreBtn.textContent = 'Show Less';
+            } else {
+              showMoreBtn.textContent = 'Show More Vendors';
+            }
+          });
+        }
       })();
     </script>
   </body>
