@@ -265,12 +265,14 @@ faqButtons.forEach((button, index) => {
       });
     });
 
-    // Clicking a paper card jumps to that card's stage (unless the click is
+    // Clicking a paper card jumps to that card's stage; clicking the
+    // front-most card advances to the next stage (unless the click is
     // the tail end of a swipe).
     books.forEach((book, i) =>
       book.addEventListener("click", () => {
-        if (performance.now() >= suppressClickUntil)
-          go(i, (i - active + count) % count === 3 ? -1 : 1);
+        if (performance.now() < suppressClickUntil) return;
+        if (i === active) go(active + 1, 1);
+        else go(i, (i - active + count) % count === 3 ? -1 : 1);
       }),
     );
 
